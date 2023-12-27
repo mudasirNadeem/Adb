@@ -12,7 +12,7 @@
 <script src="https://kit.fontawesome.com/cc00d27b50.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="../Style.css">     
     <link rel="stylesheet" href="Css/Global.css">
-    <link rel="stylesheet" href="Css/Community.css">
+    <link rel="stylesheet" href="Css/Index.css">
     <title>Your Website Title</title>
 </head>
 <body>
@@ -23,16 +23,16 @@
         <img src="https://abp.io/assets/svg/abp-logo.svg" alt="Your Logo">
       </a>
       <a href="Index.html" class=" me-3 ms-3 border-radius-10  nav-link active d-none d-lg-flex" >FrameWork </a>
-      <a href="/Adb/Community/Community.html" class=" nav-link   d-none d-lg-flex">Community </a>
-      <a href="/Adb/Commercial/Commercial.html" class=" nav-link d-none d-lg-flex ">Commercial </a>
+      <a href="/Adb/Community/Community.html" class=" nav-link  w-h-80 d-none d-lg-flex">Community </a>
+      <a href="/Adb/Commercial/Commercial.html" class=" nav-link w-h-80 d-none d-lg-flex ">Commercial </a>
       <div class="dropdown d-lg-none">
-        <a href="#"class=" nav-link active dropdown-toggle " id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"
+        <a href="#"class=" nav-link  w-h-80 active dropdown-toggle " id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"
         >
         FrameWork
       </a>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <li><a class="nav-link text-blue" href="#">Community</a></li>
-          <li><a class="nav-link text-blue" href="#">Commercial</a></li>
+          <li><a class="nav-link text-blue w-h-80" href="#">Community</a></li>
+          <li><a class="nav-link text-blue w-h-80" href="#">Commercial</a></li>
         </ul>
       </div>
    </div>
@@ -40,37 +40,39 @@
         <i class="fa-solid fa-bars menu-icon-color fs-3 "></i>
             </button>
       
-      <div class="collapse navbar-collapse w-sm-100 pe-5 pe-lg-0   position-md-fixed md-top-80" id="navbarNav">
+      <div class="collapse navbar-collapse w-sm-100 pe-5 pe-lg-0 bg-white z-index-3  position-md-fixed md-top-80" id="navbarNav">
         <div class="d-lg-none">
           <div>
             <ul class=" p-0">
-              <li class="nav-item border-md-bottom-1 py-2">
+              <li class="nav-item border-md-bottom-1 py-3">
                 <a href="" class="nav-link d-md-center   w-100 text-dark">Home</a>
               </li>
-              <li class="nav-item border-md-bottom-1 py-2" >
+              <li class="nav-item border-md-bottom-1 py-3" >
                 <a href="" class="nav-link   d-md-center w-100 text-dark">Get Started</a>
               </li>
-              <li class="nav-item border-md-bottom-1 py-2">
+              <li class="nav-item border-md-bottom-1 py-3">
                 <a href="" class="nav-link  d-md-center  w-100 text-dark ">Feature</a>
               </li>
-              <li class="nav-item border-md-bottom-1 py-2">
+              <li class="nav-item border-md-bottom-1 py-3 position-relative">
                 <a href="#" class="nav-link  d-md-center w-100 text-dark" data-bs-toggle="dropdown" aria-expanded="false">Resources <i class="fa-solid fa-caret-down ps-1"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item " href="#">Submenu item 1</a></li>
-                  <li><a class="dropdown-item " href="#">Submenu item 2</a></li>
-                  <li><a class="dropdown-item " href="#">Submenu item 3</a></li>
+                <ul class="dropdown-menu position-absolute top-10" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Books</a></li>
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Video Courses</a></li>
                 </ul>
               </li>
-              <li class="nav-item border-md-bottom-1 py-2">
+              <li class="nav-item border-md-bottom-1 py-3">
                 <a href="" class="nav-link   w-100 text-dark d-md-center">Documents <i class="fa fa-external-link ms-1"></i></a>
               </li>
-              <li class="nav-item border-md-bottom-1 py-2">
-                <a href="#" class="nav-link  d-md-center  w-100 text-dark" data-bs-toggle="dropdown" aria-expanded="false">More <i class="fa-solid fa-caret-down ps-1"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu item 3</a></li>
+              <li class="nav-item border-md-bottom-1 py-3 position-relative ">
+                <a href="#" class="nav-link  d-md-center   w-100 text-dark" data-bs-toggle="dropdown" aria-expanded="false">More <i class="fa-solid fa-caret-down ps-1"></i></a>
+                <ul class="dropdown-menu position-absolute top-10" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Packages <i class="fa fa-external-link ms-1"></i></a></li>
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Road Map <i class="fa fa-external-link ms-1"></i></a></li>
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Samples <i class="fa fa-external-link ms-1"></i></a></li>
                 </ul>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3">
+                <a href="#" class="nav-link w-100 text-dark d-md-center">Latest Release Logs   <i class="fa fa-external-link ms-1"></i>        </a>
               </li>
             </ul>
           </div>
@@ -93,38 +95,209 @@
     </nav>
 
   </header>
-  <div class="navigation bg-white pt-3 d-none d-lg-flex justify-content-between">
-    <div>
-      <ul class="d-flex">
+  <div class="navigation bg-white px-5 pt-3 d-none d-lg-flex justify-content-between">
+    <div class="">
+      <ul class="d-flex ">
         <li class="nav-item">
-          <a href="" class="nav-link text-dark">Home</a>
+          <a href="" class="nav-link text-dark me-5 selected">Home</a>
         </li>
         <li class="nav-item">
-          <a href="" class="nav-link  text-dark">Get Started</a>
+          <a href="" class="nav-link me-5 text-dark">Get Started</a>
         </li>
         <li class="nav-item">
-          <a href="" class="nav-link  text-dark ">Feature</a>
+          <a href="" class="nav-link me-5 text-dark ">Feature</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link text-dark" data-bs-toggle="dropdown" aria-expanded="false">Resources <i class="fa-solid fa-caret-down ps-1"></i></a>
+          <a href="#" class="nav-link text-dark " data-bs-toggle="dropdown" aria-expanded="false">Resources <i class="fa-solid fa-caret-down ps-1"></i></a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
-            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
-            <li><a class="dropdown-item" href="#">Submenu item 3</a></li>
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Books</a></li>
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Video Courses</a></li>
           </ul>
         </li>
-        <li class="nav-item ms-4">
+        <li class="nav-item ms-5 me-5">
           <a href="" class="nav-link  text-dark ">Documents <i class="fa fa-external-link ms-1"></i></a>
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link text-dark" data-bs-toggle="dropdown" aria-expanded="false">More <i class="fa-solid fa-caret-down ps-1"></i></a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
-            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
-            <li><a class="dropdown-item" href="#">Submenu item 3</a></li>
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Packages<i class="fa fa-external-link ms-1"></i></a></li>
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Road Map <i class="fa fa-external-link ms-1"></i></a></li>
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Samples <i class="fa fa-external-link ms-1"></i></a></li>
           </ul>
         </li>
       </ul>
+    </div>
+    <div>
+      <ul>
+        <li class="nav-item">
+          <a href="#" class="nav-link ">Latest Release Logs   <i class="fa fa-external-link ms-1"></i>        </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row px-3 px-lg-5">
+    <div class="col-12 col-lg-6">
+      <h1 style="font-size: 80px;">Open source <img src="https://abp.io/assets/svg/forever.svg" alt=""> 
+        web application <span class="text-chenge">framework</span>
+      <img src="https://abp.io/assets/svg/aspnet.svg" alt="">
+      </h1>
+      <p class="text-light-dark">ABP Framework is a complete infrastructure for creating software solutions with modern architectures based on the ASP.NET Core platform.</p>
+      <button class="btn btn-secondary px-4  border-0 fw-blod fs-6 latter-space-1" style="background-color: #6457c1; height: 40px;"> <i class="fa-solid fa-code pe-2"></i> Source Code</button>
+      <button class="btn btn-secondary px-4 ms-3  border-0 fw-blod fs-6 latter-space-1" style="background-color: #b84297; height: 40px;"> GET STARTED <i class="fa-solid fa-arrow-right pe-2"></i></button>
+    </div>
+    <div class="col-12 col-lg-6">
+
+<button type="button" class=" body-bg-color border-0" data-toggle="modal" data-target="#exampleModalCenter">
+  <img src="https://abp.io/assets/png/what-is-abp-framework.webp" alt="" class="w-100"> 
+</button>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 50%; max-height: 50%;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">What is the ABP Framework?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="https://i.ytimg.com/vi_webp/HKUMpT1yigM/maxresdefault.webp" alt="" style="width: 100%;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <div class="row">
+      <h1 class="font">Architecture</h1>
+      <p class="text-light-dark">Modern architecture to create maintainable software solutions.</p>
+      </div>
+      <div class="row mb-5">
+      <div class="col-12 col-lg-3">
+        <div class="d-flex align-items-start">
+          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+            <button class="nav-link mt-5" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+            <button class="nav-link mt-5" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false" >Disabled</button>
+            <button class="nav-link mt-5" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+            <button class="nav-link mt-5" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+          </div>
+      </div>
+      </div>
+      <div class="col-12 m-0 p-0 col-lg-9">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active border-0   w-100 overflow-auto " style="height: 600px;" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+              <div class="bg-white  border-radius-10 py-3 " >
+             <h1 class="text-dark px-3">Microservice Compatible</h1>
+             <p  class="text-light-dark px-3">The core framework & pre-built modules are designed with microservice architecture in mind.</p>
+                <div class="ig-elements"></div> <br>
+                <div class="border-radius-10 m-auto mt-4 px-2 d-flex" style="width: 180px; background-color: #6457c1; height: 70px;">
+                  <p class="text-white mt-2">User Interface</p>
+                  <img src="https://abp.io/assets/svg/icon-user-interface.svg" alt="" class="ml-auto" style="width: 50px;">
+                </div>
+                <div class="border-radius-10 m-auto mt-4 px-2 d-flex" style="width: 180px; background-color: #b84297; height: 70px;">
+                  <p class="text-white mt-2">API Gateway</p>
+                  <img src="https://abp.io/assets/svg/icon-api-gateway.svg" alt="" class="ml-auto" style="width: 50px;">
+                </div>
+                <div class="d-flex justify-content-lg-center justify-content-md-center px-3 px-lg-0 " >
+                  <div class="border-radius-10 me-4 mt-4 px-2 d-flex" style="width: 180px; background-color: #3e9fcb; height: 70px;">
+                    <p class="text-white mt-2">Microservice</p>
+                    <img src="https://abp.io/assets/svg/icon-microservice.svg" alt="" class="ml-auto" style="width: 50px;">
+                  </div>
+                  <div class="border-radius-10 me-4 mt-4 px-2 d-flex" style="width: 180px; background-color: #3e9fcb; height: 70px;">
+                    <p class="text-white mt-2">Microservice</p>
+                    <img src="https://abp.io/assets/svg/icon-microservice.svg" alt="" class="ml-auto" style="width: 50px;">
+                  </div>
+                  <div class="border-radius-10 mt-4   px-2 d-flex" style="width: 180px; background-color: #3e9fcb; height: 70px;">
+                    <p class="text-white mt-2">Microservice</p>
+                    <img src="https://abp.io/assets/svg/icon-microservice.svg" alt="" class="ml-auto" style="width: 50px;">
+                  </div>
+                  <div class="border-radius-10 mt-4 d-block d-lg-none d-md-none  px-2 d-flex" style="width: 180px; height: 70px;">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div> -->
+          </div>
+        </div>
+        </div> 
+        <div class="row mt-5">
+          <h1>Infrastructure</h1>
+          <p>Full stack application infrastructure.</p>
+          <div class="col-12 col-lg-6">
+            <div class="card p-3" style="height: 350px; overflow: hidden;">
+              <h2>Authentication & Authorization</h2>
+              <p class="text-light-dark " style="font-size: 14px;">Rich authentication & authorization options integrated to ASP.NET Core Identity & IdentityServer4. Provides an extensible & detailed permission system.              </p>
+              <img src="https://abp.io/assets/png/img-02.png" alt="" class="mt-5 m-auto " style="width: 250px;">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6" >
+            <div class="card p-3" style="height: 350px; overflow: hidden;">
+              <h2>Cross Cutting Concerns</h2>
+              <p class="text-light-dark " style="font-size: 14px;">Don't repeat yourself to implement all this common stuff again &amp; again. Focus on your business code and let ABP automate them by conventions. </p>
+              <img src="https://abp.io/assets/png/img-01.png" alt="" class="mt-5 m-auto " style="width: 250px;">
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mt-5">
+            <div class="card p-3" style="height: 350px; ">
+              <h4>Distributed Event Bus</h4>
+              <p class="text-light-dark " style="font-size: 14px;">Easily publish &amp; consume distributed events using built-in Distributed Event Bus with RabbitMQ integration available.</p>
+             <div class="d-flex justify-content-between px-5">
+              <img src="https://abp.io/assets/svg/logo-rabbit-mq.svg" alt="" width="120px" >
+              <img src="https://abp.io/assets/png/logo-rebus.png" class="d-inline-block mt-2" alt="" width="70px" height="70px">
+             </div>
+             <div class="d-flex align-items-center justify-content-center">
+              <img src="https://abp.io/assets/svg/logo-kafka.svg" alt="" width="70px" height="70px">
+             </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mt-5" >
+            <div class="card p-3" style="height: 350px; overflow: hidden;">
+              <h4>UI Theming</h4>
+              <p class="text-light-dark " style="font-size: 14px;">Create reusable UI themes and layouts or use one of the pre-built UI themes.</p>
+              <img src="https://abp.io/assets/png/img-04.webp" alt="" class="d-flex align-self-center " style="width: 250px;">
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mt-5" >
+            <div class="card p-3" style="height: 350px; ">
+              <h2>Data filtering</h2>
+              <p class="text-light-dark " style="font-size: 14px;">
+                Automatically filter on querying from the database to easily implement patterns like soft-delete and multi-tenancy.
+            </p>
+              <img src="https://abp.io/assets/png/img-05.png" alt="" class="d-flex align-self-center" style="width: 200px; height: 160px;">
+            </div>
+          </div>
+
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 col-lg-8">
+            <img src="https://abp.io/assets/png/img-06.png" alt="" class="w-100">
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card p-3" style="height: 280px; overflow: hidden;">
+              <h2>Audit Logging</h2>
+              <p class="text-light-dark " style="font-size: 14px;">Automatically trace all the operations and data changes in your system. </p>
+              <img src="https://abp.io/assets/svg/auditLogging.svg" alt="" class="d-flex align-self-center " style="width: 100px;">
+            </div>
+            <div class="card p-3 mt-4" style="height: 280px; overflow: hidden;">
+              <h2>HTTP APIs & Dynamic Proxies</h2>
+              <p class="text-light-dark " style="font-size: 14px;">Automatically expose application services as REST style HTTP APIs, and consume them with dynamic JavaScript and C# proxies. </p>
+              <div class="d-flex justify-content-around">
+                <img src="https://abp.io/assets/svg/logo-js.svg"            alt="" width="50px">
+                <img src="https://abp.io/assets/svg/logo-angular.svg"       alt="" width="50px">
+                <img src="https://abp.io/assets/svg/logo-microsoft-net.svg" alt="" width="50px">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

@@ -1,0 +1,42 @@
+body{
+    overflow-x: hidden;
+}
+body{
+background-color:#fafafa ;
+}
+.text-light-dark{
+    color: #adafb5;
+}
+.body-bg-color{
+    background-color: #fafafa;
+}
+.border-radius-10{
+    border-radius: 10px;
+}
+.ig-elements {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    width: 440px;
+    height: 447px;
+    overflow: auto;
+    border-radius: 50%;
+    border: 85px solid #6457c1;
+    opacity: .1;
+    transform: translate(-50%,-50%);
+}
+@media screen  and (max-width:768px){
+    .ig-elements {
+        display: none;
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        width: 440px;
+        height: 447px;
+        overflow: auto;
+        border-radius: 50%;
+        border: 85px solid #6457c1;
+        opacity: .1;
+        transform: translate(-50%,-50%);
+    }
+}
