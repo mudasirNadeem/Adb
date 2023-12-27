@@ -40,3 +40,19 @@ background-color:#fafafa ;
         transform: translate(-50%,-50%);
     }
 }
+.w-80{
+    width: 120px;
+}
+.btn{
+    font-weight: bold;
+    height: 50px;
+}
+.fs-13{
+    font-size: 13px;
+}
+.gradient-framework{
+    background: linear-gradient(to right, #b64398, #7154bb);
+    -webkit-background-clip: text;
+    color: transparent; /* Set text color to transparent to reveal the gradient background */
+    display: inline-block;
+}
