@@ -39,6 +39,15 @@ background-color:#fafafa ;
         opacity: .1;
         transform: translate(-50%,-50%);
     }
+    .mt-170{
+        margin-top: 100px !important;
+    }
+    .bg-light-gray{
+        background-color: #fafafa;
+    }
+    .fs-80{
+        font-size: 70px !important;
+    }
 }
 .w-80{
     width: 120px;
@@ -55,4 +64,30 @@ background-color:#fafafa ;
     -webkit-background-clip: text;
     color: transparent; /* Set text color to transparent to reveal the gradient background */
     display: inline-block;
+}
+input[type=checkbox] {
+    line-height: normal;
+    width: 23px;
+    height: 23px;
+    
+    }
+    input[type=checkbox]:checked {
+    background-color: #b2439a; /* Change this to the desired background color */
+}
+.fs-15{
+    font-size: 15px;
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+.top-75{
+    top: 70px;
+}
+.mt-170{
+    margin-top: 170px;
+}
+.fs-80{
+    font-size: 80px;
 }
