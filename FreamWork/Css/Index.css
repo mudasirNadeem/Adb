@@ -26,7 +26,10 @@ background-color:#fafafa ;
     transform: translate(-50%,-50%);
 }
 .w-50{
-    width: 50%;
+    min-width: 55%;
+}
+.h-550{
+    height: 370px;
 }
 @media screen  and (max-width:768px){
     .ig-elements {
