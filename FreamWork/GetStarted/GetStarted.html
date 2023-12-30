@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/cc00d27b50.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/Adb/Style.css">      
+    <link rel="stylesheet" href="Css/GetStarted.css">
+    <link rel="stylesheet" href="/ADB/FreamWork/Css/Index.css">
+    <title>Your Website Title</title>
+</head>
+<body>
+  <header class="border-bottom-1 ps-3 pe-1 px-lg-5  w-100 bg-white ">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+   <div class="d-flex align-items-center  ">
+    <a class="navbar-brand   text-decoration-none" href="#">
+        <img src="https://abp.io/assets/svg/abp-logo.svg" alt="Your Logo">
+      </a>
+      <a href="Index.html" class=" me-3 ms-3 border-radius-10  nav-link active d-none d-lg-flex" >FrameWork </a>
+      <a href="/Adb/Community/Community.html" class=" nav-link  w-h-80 d-none d-lg-flex">Community </a>
+      <a href="/Adb/Commercial/Commercial.html" class=" nav-link w-h-80 d-none d-lg-flex ">Commercial </a>
+      <div class="dropdown d-lg-none">
+        <a href="#"class=" nav-link  w-h-80 active dropdown-toggle " id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"
+        >
+        FrameWork
+      </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="nav-link text-blue w-h-80" href="#">Community</a></li>
+          <li><a class="nav-link text-blue w-h-80" href="#">Commercial</a></li>
+        </ul>
+      </div>
+   </div>
+      <button class="navbar-toggler  bg-transperent  " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars menu-icon-color fs-3 "></i>
+            </button>
+      
+      <div class="collapse navbar-collapse w-sm-100 pe-5 pe-lg-0 w-100 bg-light-gray z-index-3  position-md-fixed md-top-80" id="navbarNav">
+        <div class="d-lg-none">
+          <div>
+            <ul class=" p-0">
+              <li class="nav-item border-md-bottom-1 py-3">
+                <a href="" class="nav-link d-md-center   w-100 text-dark">Home</a>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3" >
+                <a href="" class="nav-link   d-md-center w-100 text-dark ">Get Started</a>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3">
+                <a href="" class="nav-link  d-md-center  w-100 text-dark ">Feature</a>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3 position-relative">
+                <a href="#" class="nav-link  d-md-center w-100 text-dark" data-bs-toggle="dropdown" aria-expanded="false">Resources <i class="fa-solid fa-caret-down ps-1"></i></a>
+                <ul class="dropdown-menu position-absolute top-10" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Books</a></li>
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Video Courses</a></li>
+                </ul>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3">
+                <a href="" class="nav-link   w-100 text-dark d-md-center">Documents <i class="fa fa-external-link ms-1"></i></a>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3 position-relative ">
+                <a href="#" class="nav-link  d-md-center   w-100 text-dark" data-bs-toggle="dropdown" aria-expanded="false">More <i class="fa-solid fa-caret-down ps-1"></i></a>
+                <ul class="dropdown-menu position-absolute top-10" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Packages <i class="fa fa-external-link ms-1"></i></a></li>
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Road Map <i class="fa fa-external-link ms-1"></i></a></li>
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Samples <i class="fa fa-external-link ms-1"></i></a></li>
+                </ul>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3">
+                <a href="#" class="nav-link w-100 text-dark d-md-center">Latest Release Logs   <i class="fa fa-external-link ms-1"></i>        </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item me-3 border-md-bottom-1">
+            <a class="nav-link text-dark nav-content  " href="#"> Blog</a>
+          </li>
+          <li class="nav-item me-3 border-md-bottom-1  mt-lg-0">
+            <a class="nav-link text-dark nav-content mt-3 mt-lg-0 " href="#"> <i class="fa-brands fa-github pe-lg-1 fs-5"></i> GitHub</a>
+          </li>
+        <li class="nav-item mt-3 mt-lg-0">
+            <a href="#" class="text-decoration-none " >
+                <button class=" btn-secondary w-sm-100 btn-seting border-0 d-flex align-items-center justify-content-center">Login</button>
+            </a>
+        </li>
+    
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+  <div class="navigation  bg-white px-3 px-lg-5 pt-3 d-none d-lg-flex position-fixed top-75 w-100 justify-content-between z-index-3">
+    <div class="">
+      <ul class="d-flex ">
+        <li class="nav-item">
+          <a href="/Adb/FreamWork/Index.html" class="nav-link text-dark me-5 ">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link me-5 text-dark selected">Get Started</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link me-5 text-dark ">Feature</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark " data-bs-toggle="dropdown" aria-expanded="false">Resources <i class="fa-solid fa-caret-down ps-1"></i></a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Books</a></li>
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Video Courses</a></li>
+          </ul>
+        </li>
+        <li class="nav-item ms-5 me-5">
+          <a href="" class="nav-link  text-dark ">Documents <i class="fa fa-external-link ms-1"></i></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark" data-bs-toggle="dropdown" aria-expanded="false">More <i class="fa-solid fa-caret-down ps-1"></i></a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Packages<i class="fa fa-external-link ms-1"></i></a></li>
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Road Map <i class="fa fa-external-link ms-1"></i></a></li>
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Samples <i class="fa fa-external-link ms-1"></i></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li class="nav-item">
+          <a href="#" class="nav-link ">Latest Release Logs   <i class="fa fa-external-link ms-1"></i>        </a>
+        </li>
+      </ul>
+    </div>
+  </div> 
+  <h1 class=" mt-170 px-lg-5 px-3 fw-bolder" style="font-size: 50px;">Get Started</h1>
+  <div class="row px-lg-5 px-3">
+    <div class="card">
+      <div class="row">
+        <div class="col-lg-8 col-12">
+            <h3 class="text-light-brown px-3 pt-5">Install The ABP CLI</h3>
+            <p class="text-light-dark px-3">Install the ABP CLI in a command line terminal, if you haven't installed it before:</p>
+                  <div class="border-radius-10 text-white  px-3 " style="border: solid 3px black; height: 90px; background-color: #292d33; ">
+                    <div class="d-flex pt-2 justify-content-between w-100">
+                       <div class="text-light-dark"> Terminal</div>
+                       <div><button class="px-3 btn-copy ">Copy</button></div>
+                    </div>
+                 <p > <b>> dotnet tool install -g Volo.Abp.Cli</b></p>
+                          
+        </div>
+        <h5 class="text-light-brown mt-3 fw-bolder">Create Your Solution </h5>
+        <p class="text-light-dark">Run the following command in a command line terminal:</p>
+        <div class="border-radius-10 text-white  px-3 sticky-to-0 " style="border: solid 3px black; height: 90px; position: sticky !important; top: 0; background-color: #292d33; ">
+            <div class="d-flex pt-2 justify-content-between w-100">
+               <div class="text-light-dark"> Terminal</div>
+               <div><button class="px-3 btn-copy ">Copy</button></div>
+            </div>
+         <p > <b>> abp new Acme.BookStore -csf</b></p>
+                  
+</div>
+    <h5 class="fs-bolder mt-3" style="color: #6457c1;">Options    </h5>
+    <p class="m-0 text-light-dark"> You can change the solution options below.</p>
+    <h5 class="mt-3">Give your project a name</h5>
+    <form class="form-floating mt-3">
+        <input type="email" class="form-control " id="floatingInputInvalid" placeholder="name@example.com" value="test@example.com" style="background-color: #fafafa;">
+        <label for="floatingInputInvalid">Project Name</label>
+      </form>
+      <label for="#" class="text-light-dark">You can use different levels of namespaces; e.g. BookStore, Acme.BookStore or Acme.Retail.BookStore.</label>
+      <h5 class="mt-4">Select Project Type</h5>
+      <div class="row p-0">
+        <div class="col-lg-4 ps-0">
+      <button class="border-0 w-100 mb-3   border-radius-10 ps-3 py-1 hover-border border-white selected-button" style=" height: 70px; background-color: #fafafa; box-shadow: 0px 0px 1px black;">
+        <div class="d-flex align-items-center ">
+            <img src="https://abp.io/assets/png/multilayer.png" alt="" width="40px" height="40px">
+         <p class="fs-13 text-light-dark ps-3">   Multi-layer <br>
+            Application</p>
+        </div>
+      </button> 
+      <p class="fs-15 m-0">Creates a fully layered solution based on Domain Driven Design practices.</p>
+      <p class="m-0 fs-13 text-light-dark">Recommended for long-term projects that need a maintainable and extensible codebase.</p>
+    </div>
+    <div class="col-lg-4 ps-0">
+      <button class="border-0 w-100  mt-lg-0 mt-2 mb-3 border-radius-10 ps-3 py-1 hover-border border-white " style=" height: 70px; background-color: #fafafa; box-shadow: 0px 0px 1px black;">
+        <div class="d-flex align-items-center ">
+            <img src="https://abp.io/assets/png/singlelayer.png" alt="" width="40px" height="40px">
+         <p class="fs-13 text-light-dark ps-3">   Single-layer  <br>
+            Application</p>
+        </div>
+      </button>
+      <p class="fs-15 m-0">
+        Creates a single-layer web application.  
+    </p>
+      <p class="m-0 fs-13 text-light-dark">
+        Recommended for building an application with a simpler and easy to understand architecture.
+    </p>
+    </div>
+    <div class="col-lg-4  ps-0 ps-lg-2 ">
+      <button class="border-0 pe-0 border-radius-10 w-100  ps-3 mt-lg-0 mt-2 py-1 hover-border border-white " style=" height: 70px; background-color: #fafafa; box-shadow: 0px 0px 1px black;">
+        <div class="d-flex align-items-center ">
+            <img src="https://abp.io/assets/png/appmodule.png" alt="" width="40px" height="40px">
+         <p class="fs-13  text-light-dark ps-3">   Application <br> Module 
+           </p>
+           
+        </div>
+      </button>
+      <p class="fs-15 m-0">
+        Creates a reusable, fully layered application module solution.
+    </p>
+      <p class="m-0 fs-13 text-light-dark">
+        You can use this option to create modules for your modular application.
+    </p>
+    </div>
+    </div>
+    <div class="row m-0 p-0">
+        <h5 class="mt-5 p-0 ps-lg-2 fw-bolder">Select UI Framework</h5>
+        <div class="d-flex p-0 md-flex-wrap">
+        <button class="border-0 w-100 mb-3 ms-lg-2  border-radius-10 ps-3 py-1 hover-border border-white selected-button" style=" height: 70px; background-color: #fafafa; box-shadow: 0px 0px 1px black;">
+            <div class="d-flex align-items-center ">
+                <img src="https://abp.io/assets/svg/mvclogo.svg" alt="" width="40px" height="40px">
+             <p class="fs-13 text-light-dark ps-3 mt-3 fw-bolder">   MVC</p>
+            </div>
+          </button>
+          <button class="border-0 w-100 mb-3 ms-lg-2   border-radius-10 ps-3 py-1 hover-border border-white " style=" height: 70px; background-color: #fafafa; box-shadow: 0px 0px 1px black;">
+            <div class="d-flex align-items-center ">
+                <img src="https://abp.io/assets/svg/angularlogo.svg" alt="" width="40px" height="40px">
+             <p class="fs-13 text-light-dark ps-3 mt-3 fw-bolder">   Angular</p>
+            </div>
+          </button>
+          <button class="border-0 w-100 mb-3 ms-lg-2   border-radius-10 ps-3 py-1 hover-border border-white " style=" height: 70px; background-color: #fafafa; box-shadow: 0px 0px 1px black;">
+            <div class="d-flex align-items-center ">
+                <img src="https://abp.io/assets/svg/blazorlogo.svg" alt="" width="40px" height="40px">
+             <p class="fs-13 text-light-dark ps-3 text-light-dark mt-3">  <span class="fw-bolder">Blazor</span> 
+                Server</p>
+            </div>
+          </button>
+          <button class="border-0 w-100 mb-3 ms-lg-2   border-radius-10 ps-3 py-1 hover-border border-white " style=" height: 70px; background-color: #fafafa; box-shadow: 0px 0px 1px black;">
+            <div class="d-flex align-items-center ">
+                <img src="https://abp.io/assets/svg/blazorlogo.svg" alt="" width="40px" height="40px">
+                <p class="fs-13 text-light-dark ps-3 text-light-dark ">  <span class="fw-bolder">Blazor</span>  <br>
+                    WebAssembly</p>
+            </div>
+          </button>
+        </div>
+    </div>
+    <div class="row p-0 mt-4">
+        <h6 class="fw-bolder">Select UI Theme</h6>
+        <div class="col-lg-6  p-0 pe-lg-2">
+            <button class="border-0 w-100  ms-lg-2  border-radius-10 ps-3 py-1 hover-border border-white " style=" height: 120px; background-color: #fafafa; box-shadow: 0px 0px 1px black;">
+                <div class="d-flex align-items-center  text-left">
+                    <img src="https://abp.io/assets/png/leptonss.png" alt="" width="100px" height="60px">
+                 <div class="ps-2">
+                    <h6 class="m-0">
+                        LeptonX Lite Theme
+                        </h6>
+                        <p class="text-light-dark " style="line-height: 17px; font-size: 11px;">
+                            A modern and stylish Bootstrap UI theme. Ideal if you want to have a production ready UI theme. This is the newest theme and is the default.
+                       </p>
+                 </div>
+                </div>
+              </button>
+              <a href="#" class="text-danger ps-lg-2"><small>See the screenshot</small></a>
+        </div>
+        <div class="col-lg-6  pe-0 ps-0 mt-3 mt-lg-0">
+            <button class="border-0 w-100  ms-lg-2  border-radius-10 ps-3 py-1 hover-border border-white selected-button " style=" height: 120px; background-color: #fafafa; box-shadow: 0px 0px 1px black;">
+                <div class="d-flex align-items-center  text-left">
+                    <img src="https://abp.io/assets/png/leptonss.png" alt="" width="100px" height="60px">
+                 <div class="ps-2">
+                    <h6 class="m-0">
+                       
+                        Basic Theme
+                                            
+                        </h6>
+                        <p class="text-light-dark " style="line-height: 17px; font-size: 11px;">
+                            
+                            Minimalist UI theme with plain Bootstrap colors and styles. Ideal if you will build your own UI theme.
+                                                
+                       </p>
+                 </div>
+                </div>
+              </button>
+              <a href="#" class="text-danger ps-lg-2"><small>See the screenshot</small></a>
+        </div>
+    </div> <br> <br>
+    <h5 >Select Database Provider</h5> 
+    <div class="row  p-0">
+        <div class="col-lg-6  p-0 pe-lg-2">
+            <button class="border-0 w-100    border-radius-10 ps-3 py-1 hover-border border-white " style=" height: 70px; background-color: #fafafa; box-shadow: 0px 0px 1px black;">
+                <div class="d-flex align-items-center  text-left">
+                    <img src="https://abp.io/assets/svg/mvclogo.svg" alt="" width="60px" height="50px">
+                 <div class="ps-2">
+                    <h6 class="m-0">
+                        Entity Framework Core
+</h6>
+                 </div>
+                </div>
+              </button>
+        </div>
+        <div class="col-lg-6  pe-0 ps-0 mt-3 mt-lg-0">
+            <button class="border-0 w-100  ms-lg-2  border-radius-10 ps-3 py-1 hover-border border-white selected-button " style=" height: 70px; background-color: #fafafa; box-shadow: 0px 0px 1px black;">
+                <div class="d-flex align-items-center  text-left">
+                    <img src="https://abp.io/assets/svg/mongologo.svg" alt="" width="50px" height="30px">
+                 <div class="ps-2">
+                    <h6 class="m-0">
+                        Mongo DB
+                        </h6>
+                      
+                 </div>
+                </div>
+              </button>
+        </div>
+    </div>
+    <h5  class="fw-bolder mt-4">Mobile</h5> 
+    <div class="row  p-0">
+        <div class="col-lg-2  p-0 pe-lg-2">
+            <button class="border-0 w-100 selected-button   border-radius-10 ps-3 py-1 hover-border border-white " style=" height: 60px; background-color: #fafafa; box-shadow: 0px 0px 1px black;">
+                <div class="d-flex align-items-center  text-left">
+                 <div class="ps-2">
+                    <h6 class="m-0 fw-bolder">
+                        None
+</h6>
+                 </div>
+                </div>
+              </button>
+        </div>
+        <div class="col-lg-2  pe-0 ps-0 mt-3 mt-lg-0">
+            <button class="border-0 w-100  ms-lg-2  border-radius-10 ps-3 py-1 hover-border border-white  " style=" height: 60px; background-color: #fafafa; box-shadow: 0px 0px 1px black;">
+                <div class="d-flex align-items-center  text-left">
+                 <div class="ps-2">
+                    <h6 class="m-0 fw-bolder">
+                       React Native
+                        </h6>
+                 </div>
+                </div>
+              </button>
+        </div>
+        <div class="mt-4 p-0">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label ps-3" for="defaultCheck1">
+                  <h6 class="mb-2">Tiered</h6> 
+                  <small class="text-light-dark d-block" style="line-height: 18px; font-size: 12px; "> Creates a tiered solution where Web and Http API layers are physically separated. If not checked, creates a layered solution which is less complex and suitable for most scenarios.</small>
+                </label> <br> <br>
+              
+        </div>
+        </div>
+        <div class=" p-0">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" checked>
+                <label class="form-check-label ps-3" for="defaultCheck2">
+                  <h6 class="mb-2">Create Solution Folder</h6> 
+                  <small class="text-light-dark d-block" style="line-height: 18px; font-size: 12px; ">  Specifies if the project will be in a new folder in the output folder or directly the output folder.</small>
+                </label> <br> <br>
+              
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-lg-4 col-12">
+        <h3 class="fw-bolder  pt-5">Need Help?</h3>
+        <p class="m-0 ">Follow the links below</p>
+        <a class="text-decoration-none text-light-dark  d-block fs-13 mt-3" href="#"><i class="fa-solid fa-up-right-from-square me-2 fs--13"></i>Getting Started Tutorial</a>
+        <a class="text-decoration-none text-light-dark  d-block fs-13 mt-3" href="#"><i class="fa-solid fa-up-right-from-square me-2 fs--13"></i>Application Development Tutorial</a>
+        <a class="text-decoration-none text-light-dark  d-block fs-13 mt-3" href="#"><i class="fa-solid fa-up-right-from-square me-2 fs--13"></i>The Startup Templatel</a>
+        <a class="text-decoration-none text-light-dark  d-block fs-13 mt-3" href="#"><i class="fa-solid fa-up-right-from-square me-2 fs--13"></i>ABP CLI Documentation</a>
+        <div class="card bg-white  mt-3">
+          <div class="d-flex pt-2  w-100 align-items-center">
+            <div>
+              <img src="https://abp.io/assets/png/book2sm.png" alt="" class="w-h-70">
+            </div>
+            <div>
+              <h6 class="fw-bolder ps-3">Mastering ABP Framework</h6>
+            </div>
+          </div>
+          <button class="btn-bg-color border-0 mt-2 mb-3 py-2 border-radius-10 text-white mx-3" > Explore the Book</button>
+        </div>
+        <div class="card bg-white  mt-5">
+          <div class="d-flex pt-2  w-100 align-items-center">
+            <div>
+              <img src="https://abp.io/assets/png/book2sm.png" alt="" class="w-h-70">
+            </div>
+            <div>
+              <h6 class="fw-bolder ps-3">Mastering ABP Framework</h6>
+            </div>
+          </div>
+          <button class="btn-bg-color border-0 mt-2 mb-3 py-2 border-radius-10 text-white mx-3" > Explore the Book</button>
+        </div>
+        <div class="card bg-white  mt-5">
+          <div class="d-flex pt-2  w-100 align-items-center">
+            <div>
+              <img src="https://abp.io/assets/png/book2sm.png" alt="" class="w-h-70">
+            </div>
+            <div>
+              <h6 class="fw-bolder ps-3">Mastering ABP Framework</h6>
+            </div>
+          </div>
+          <button class="btn-bg-color border-0 mt-2 mb-3 py-2 border-radius-10 text-white mx-3" > Explore the Book</button>
+        </div>
+    </div>
+    </div>
+    </div>
+      <div class="p-0">
+   <div class="card px-3   mt-5 w-100 py-5">
+    <div class="d-flex justify-content-between align-items-center flex-wrap">
+      <img src="https://abp.io/assets/svg/logo-abp-framework-dark.svg" alt="" width="180px">
+      <h6 class="my-3">
+        Open Source Web Application 
+      <span class="gradient-framework">Framework</span>
+      </h6>
+      <div class="d-lg-flex d-md-flex d-block">
+        <button class="px-3 btn btn-secondary border-0 text-white d-block" style="background-color: #923578;">Get Started</button>
+        <button class="px-3 btn text-dark bg-transperent  ms-0 ms-lg-4 ms-md-4 mt-3 mt-lg-0 mt-md-0" style="border: #b84297 solid 1px;" > <i class="fa-solid fa-code"></i> Source Code </button>
+      </div>
+    </div>
+   </div>
+   
+   <div class="card py-5 my-5 border-radius-10 " style="background:linear-gradient(to left,  #894eaf , #b2439a);">
+    <div class="row px-3 px-lg-5">
+      <div class="col-12 col-lg-6 ">
+        <h2 class="text-white">Subscribe to the Newsletter</h2>
+        <p class="text-light-dark">Get information about happenings in ABP like new releases, free sources, posts, and more.</p>
+
+      </div>
+      <div class="col-12 col-lg-6 p-0">
+        <div class="input-group ">
+          <input type="text" class="form-control py-4" placeholder="Email Address" aria-label="Dollar amount (with dot and two decimal places)">
+          <button class="btn btn-dark">Subscribe</button>
+        </div>
+       <div class="pt-3 d-flex align-items-center " style="padding-left: 22px; ">
+        <input class="form-check-input " type="checkbox" value="" id="reverseCheck1">
+        <label class="form-check-label text-light-dark ps-2" for="reverseCheck1">
+          I agree to the <a href="#" class="text-white">Terms & Conditions</a> and <a href="#" class="text-white">Privacy Policy.</a>
+        </label>
+        
+       </div>
+       <div class="pt-3 d-flex align-items-center" style="padding-left: 22px; ">
+        <input class="form-check-input " type="checkbox" value="" id="reverseCheck2">
+        <label class="form-check-label text-light-dark ps-2" for="reverseCheck2">
+          I would like to receive marketing materials like product deals & special offers.
+        </label>
+        
+       </div>
+      </div>
+    </div>
+  </div> 
+  </div>
+  <div class="row ">
+    <div class="col-lg-4 col-12">
+      <img src="https://abp.io/assets/svg/abp-logo.svg" alt="" width="150px">
+      <p class="text-light-dark fs-13 mt-3">2013 - 2023 © Volosoft
+        Open source license with LGPLv3.0
+        Made with ❤️ on ABP v8.1.0 & .NET 8.0.0
+        Updated on December 25, 2023, 07:05</p>
+    </div>
+    <div class="col-lg-3 col-6">
+      <a href="#" class="nav-link fs-15 text-light-dark">GitHub</a> <br>
+      <a href="#" class="nav-link fs-15 text-light-dark">Twitter</a> <br>
+      <a href="#" class="nav-link fs-15 text-light-dark">Status</a>
+    </div>
+    
+    <div class="col-lg-3 col-6">
+      <a href="#" class="nav-link fs-15 text-light-dark">Stackoverflow</a> <br>
+      <a href="#" class="nav-link fs-15 text-light-dark">
+        YouTube</a> <br>
+    </div>
+    <div class="col-lg-2 mt-5 mt-lg-0 col-6">
+      <a href="#" class="nav-link fs-15 text-light-dark"><div class="icon-lang me-2"></div> English</a> <br>
+      <a href="#" class="nav-link fs-15 text-light-dark">
+        Discord</a> <br>
+    </div>
+  </div>
+  <br> <br>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

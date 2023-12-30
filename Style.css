@@ -65,6 +65,13 @@ width: 100% !important;
     align-items: center !important;
     justify-content: start !important;
 }
+.md-flex-wrap{
+  flex-wrap: wrap;
+}
+.w-h-70{
+  height: 200px !important;
+  width: 200px !important;
+}
 }
 .btn-seting{
         background: linear-gradient(to right, #ad459d, #6f54bb);
@@ -158,4 +165,8 @@ h1,h2,h3,h4,h5,h6{
 }
 .latter-space-1{
   letter-spacing: 1px;
+}
+.card{
+  box-shadow: #fafafa 0px 0px 10px 10px;
+  border: 0;
 }

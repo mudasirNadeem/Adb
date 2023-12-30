@@ -1,0 +1,31 @@
+.text-light-brown{
+    color: #b84297;
+}
+.btn-copy{
+    background-color: #b84297;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    height: 33px;
+}
+.hover-border:hover{
+border: solid #6457c1 2px !important;
+}
+.border-white{
+    border: solid 2px #fafafa !important;
+}
+.selected-button{
+border: solid #6457c1 2px !important;
+
+}
+.btn-bg-color{
+    background-color: #b84297;
+}
+.w-h-70{
+    height: 70px;
+    width: 70px;
+}
+.bg-red{
+    background-color: red;
+}
