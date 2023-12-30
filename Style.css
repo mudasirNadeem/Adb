@@ -72,6 +72,29 @@ width: 100% !important;
   height: 200px !important;
   width: 200px !important;
 }
+.ig-elements {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  width: 440px;
+  height: 447px;
+  overflow: auto;
+  border-radius: 50%;
+  border: 85px solid #6457c1;
+  opacity: .1;
+  transform: translate(-50%,-50%);
+}
+
+.bg-light-gray{
+  background-color: #fafafa;
+}
+.fs-80{
+  font-size: 70px !important;
+}
+.w-hundred{
+  width: 100% !important;
+}
 }
 .btn-seting{
         background: linear-gradient(to right, #ad459d, #6f54bb);
@@ -169,4 +192,80 @@ h1,h2,h3,h4,h5,h6{
 .card{
   box-shadow: #fafafa 0px 0px 10px 10px;
   border: 0;
+}
+body{
+  overflow-x: hidden !important;
+}
+body{
+background-color:#fafafa ;
+}
+.text-light-dark{
+  color: #adafb5;
+}
+.body-bg-color{
+  background-color: #fafafa;
+}
+.border-radius-10{
+  border-radius: 10px;
+}
+.ig-elements {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  width: 440px;
+  height: 447px;
+  overflow: auto;
+  border-radius: 50%;
+  border: 85px solid #6457c1;
+  opacity: .1;
+  transform: translate(-50%,-50%);
+}
+.w-50{
+  min-width: 55%;
+}
+.h-550{
+  height: 370px;
+}
+
+.w-80{
+  width: 120px;
+}
+.btn{
+  font-weight: bold;
+  height: 50px;
+}
+.fs-13{
+  font-size: 13px;
+}
+.gradient-framework{
+  background: linear-gradient(to right, #b64398, #7154bb);
+  -webkit-background-clip: text;
+  color: transparent; /* Set text color to transparent to reveal the gradient background */
+  display: inline-block;
+}
+input[type=checkbox] {
+  line-height: normal;
+  width: 23px;
+  height: 23px;
+  
+  }
+  input[type=checkbox]:checked {
+  background-color: #b2439a; /* Change this to the desired background color */
+}
+.fs-15{
+  font-size: 15px;
+}
+header{
+  position: fixed;
+  top: 0;
+  z-index: 9;
+}
+.top-75{
+  top: 70px;
+}
+.mt-170{
+  margin-top: 170px;
+}
+.fs-80{
+  font-size: 80px;
 }
