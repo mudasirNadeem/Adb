@@ -1,0 +1,83 @@
+.sticky-Element{
+    position: sticky;
+    top: 0;
+}
+/* For WebKit browsers (Chrome, Safari) */
+.sticky-Element::-webkit-scrollbar{
+    width: 3px; 
+  }
+  
+  .sticky-Element::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+  
+  .chenge-scroll::-webkit-scrollbar{
+    width: 3px; 
+  }
+  .chenge-scroll::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+  .btn-bg-color{
+    background-color: #b84297 !important;
+  }
+  .code-show{
+    background-color: #2d2d2d;
+  }
+  .checkiconBefore a {
+    position: relative;
+    display: block;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+
+  .checkiconBefore a::before {
+    content: '\2713'; 
+    font-size: 18px;
+    color: #b84297; 
+    background-color: #e6bddb;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+pre{
+    border-radius: 10px;
+    background-color: #2d2d2d;
+    color: white;
+}
+
+.sticky-Element a {
+    position: relative;
+    display: block;
+    padding-left: 30px; /* Adjust as needed */
+    margin-bottom: 10px; /* Adjust as needed */
+    line-height: 1.5;
+    text-decoration: none;
+  }
+
+
+  .sticky-Element a.highlighted::before {
+    content: '\2713'; /* Checkmark symbol */
+    font-size: 18px; /* Adjust as needed */
+    color: #b84297; /* Adjust the color as needed */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block; /* Ensures the checkmark doesn't affect the layout */
+    background-color:#d89dc8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+  
+  }

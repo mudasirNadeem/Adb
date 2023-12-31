@@ -269,3 +269,12 @@ header{
 .fs-80{
   font-size: 80px;
 }
+.form-control:disabled, .form-control[readonly] {
+  background-color: transparent;
+  opacity: 1;
+
+  
+}
+#floatingTextarea2 {
+  white-space: pre-wrap !important;
+}

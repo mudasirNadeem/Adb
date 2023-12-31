@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/cc00d27b50.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/Adb/Style.css">      
+    <link rel="stylesheet" href="/Adb/FreamWork/Css/Index.css">
+    <link rel="stylesheet" href="/Adb/FreamWork/Feature/Css/Feature.css">
+    <title>Your Website Title</title>
+</head>
+<body>
+  <header class="border-bottom-1 ps-3 pe-1 px-lg-5  w-100 bg-white ">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+   <div class="d-flex align-items-center  ">
+    <a class="navbar-brand   text-decoration-none" href="#">
+        <img src="https://abp.io/assets/svg/abp-logo.svg" alt="Your Logo">
+      </a>
+      <a href="Index.html" class=" me-3 ms-3 border-radius-10  nav-link active d-none d-lg-flex" >FrameWork </a>
+      <a href="/Adb/Community/Community.html" class=" nav-link  w-h-80 d-none d-lg-flex">Community </a>
+      <a href="/Adb/Commercial/Commercial.html" class=" nav-link w-h-80 d-none d-lg-flex ">Commercial </a>
+      <div class="dropdown d-lg-none">
+        <a href="#"class=" nav-link  w-h-80 active dropdown-toggle " id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"
+        >
+        FrameWork
+      </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="nav-link text-blue w-h-80" href="#">Community</a></li>
+          <li><a class="nav-link text-blue w-h-80" href="#">Commercial</a></li>
+        </ul>
+      </div>
+   </div>
+      <button class="navbar-toggler  bg-transperent  " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars menu-icon-color fs-3 "></i>
+            </button>
+      
+      <div class="collapse navbar-collapse w-sm-100 pe-5 pe-lg-0 w-100 bg-light-gray z-index-3  position-md-fixed md-top-80" id="navbarNav">
+        <div class="d-lg-none">
+          <div>
+            <ul class=" p-0">
+              <li class="nav-item border-md-bottom-1 py-3">
+                <a href="" class="nav-link d-md-center   w-100 text-dark">Home</a>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3" >
+                <a href="" class="nav-link   d-md-center w-100 text-dark ">Get Started</a>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3">
+                <a href="" class="nav-link  d-md-center  w-100 text-dark ">Feature</a>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3 position-relative">
+                <a href="#" class="nav-link  d-md-center w-100 text-dark" data-bs-toggle="dropdown" aria-expanded="false">Resources <i class="fa-solid fa-caret-down ps-1"></i></a>
+                <ul class="dropdown-menu position-absolute top-10" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Books</a></li>
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Video Courses</a></li>
+                </ul>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3">
+                <a href="" class="nav-link   w-100 text-dark d-md-center">Documents <i class="fa fa-external-link ms-1"></i></a>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3 position-relative ">
+                <a href="#" class="nav-link  d-md-center   w-100 text-dark" data-bs-toggle="dropdown" aria-expanded="false">More <i class="fa-solid fa-caret-down ps-1"></i></a>
+                <ul class="dropdown-menu position-absolute top-10" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Packages <i class="fa fa-external-link ms-1"></i></a></li>
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Road Map <i class="fa fa-external-link ms-1"></i></a></li>
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Samples <i class="fa fa-external-link ms-1"></i></a></li>
+                </ul>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3">
+                <a href="#" class="nav-link w-100 text-dark d-md-center">Latest Release Logs   <i class="fa fa-external-link ms-1"></i>        </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item me-3 border-md-bottom-1">
+            <a class="nav-link text-dark nav-content  " href="#"> Blog</a>
+          </li>
+          <li class="nav-item me-3 border-md-bottom-1  mt-lg-0">
+            <a class="nav-link text-dark nav-content mt-3 mt-lg-0 " href="#"> <i class="fa-brands fa-github pe-lg-1 fs-5"></i> GitHub</a>
+          </li>
+        <li class="nav-item mt-3 mt-lg-0">
+            <a href="#" class="text-decoration-none " >
+                <button class=" btn-secondary w-sm-100 btn-seting border-0 d-flex align-items-center justify-content-center">Login</button>
+            </a>
+        </li>
+    
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+  <div class="navigation  bg-white px-3 px-lg-5 pt-3 d-none d-lg-flex position-fixed top-75 w-100 justify-content-between z-index-3">
+    <div class="">
+      <ul class="d-flex ">
+        <li class="nav-item">
+          <a href="/Adb/FreamWork/Index.html" class="nav-link text-dark me-5 ">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="/Adb/FreamWork/GetStarted/GetStarted.html" class="nav-link me-5 text-dark ">Get Started</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link me-5 text-dark selected ">Feature</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark " data-bs-toggle="dropdown" aria-expanded="false">Resources <i class="fa-solid fa-caret-down ps-1"></i></a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Books</a></li>
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Video Courses</a></li>
+          </ul>
+        </li>
+        <li class="nav-item ms-5 me-5">
+          <a href="" class="nav-link  text-dark ">Documents <i class="fa fa-external-link ms-1"></i></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark" data-bs-toggle="dropdown" aria-expanded="false">More <i class="fa-solid fa-caret-down ps-1"></i></a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Packages<i class="fa fa-external-link ms-1"></i></a></li>
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Road Map <i class="fa fa-external-link ms-1"></i></a></li>
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Samples <i class="fa fa-external-link ms-1"></i></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li class="nav-item">
+          <a href="#" class="nav-link ">Latest Release Logs   <i class="fa fa-external-link ms-1"></i>        </a>
+        </li>
+      </ul>
+    </div>
+  </div>    
+    <h1 class=" px-lg-5 px-3 fw-bolder mt-170">ABP Framework <span class="text-chenge">Features</span></h1>
+    <div class="row px-lg-5 px-3 p-0">
+      <div class="col-lg-3 col-12 p-0  sticky-Element" style="height: 400px; overflow: auto; ">
+        <a href="#UiCard" class="checkLink text-decoration-none text-light-dark d-block mt-3">Multiple UI Options </a>
+        <a href="#multidatabas" class="checkLink text-decoration-none text-light-dark d-block mt-3">Multiple Database Providers  </a>
+        <a href="#ablCli" class="checkLink text-decoration-none text-light-dark d-block mt-3">ABP CLI  </a>
+        <a href="#modularity" class="checkLink text-decoration-none text-light-dark d-block mt-3">Modularity  </a>
+        <a href="#multitency" class="checkLink text-decoration-none text-light-dark d-block mt-3">Multi-Tency  </a>
+        <a href="#bootstrap" class="checkLink text-decoration-none text-light-dark d-block mt-3">Bootstrap Tag Helpers  </a>
+        <a href="#form" class="checkLink text-decoration-none text-light-dark d-block mt-3">Dynamic Forms  </a>
+        <a href="#authentication" class="checkLink text-decoration-none text-light-dark d-block mt-3">Authentication &  Authorization   </a>
+        <a href="#cross" class="checkLink text-decoration-none text-light-dark d-block mt-3">Cross Cutting Concerns  </a>
+        <a href="#bundle" class="checkLink text-decoration-none text-light-dark d-block mt-3">Bundling & Minification  </a>
+        <a href="#virtual" class="checkLink text-decoration-none text-light-dark d-block mt-3">Virtual File System  </a>
+        <a href="#theming" class="checkLink text-decoration-none text-light-dark d-block mt-3">Theming  </a>
+        <a href="#background" class="checkLink text-decoration-none text-light-dark d-block mt-3">Background Jobs  </a>
+        <a href="#ddd" class="checkLink text-decoration-none text-light-dark d-block mt-3">DDD Infrastructure  </a>
+        <a href="#autorest" class="checkLink text-decoration-none text-light-dark d-block mt-3">auto REST APIS   </a>
+        <a href="#dynamiClient" class="checkLink text-decoration-none text-light-dark d-block mt-3">Dynamic Client Proxies   </a>
+        <a href="#distribuited" class="checkLink text-decoration-none text-light-dark d-block mt-3">Distibuted Event Bus   </a>
+        <a href="#bolb" class="checkLink text-decoration-none text-light-dark d-block mt-3">Blob Storing  </a>
+      </div>
+      <div class="col-lg-9 col-12 mt-4 mt-lg-0">
+        <section id="UiCard">
+          <div class="card p-3">
+            <h3>Multiple UI Options</h3>
+            <p class="text-light-dark fs-13">The core framework is designed as UI independent and can work with any type of UI system, while there are multiple pre-built and integrated options provided out of the box.</p>
+            <div class="d-lg-flex d-md-flex">
+              <img src="https://www.abp.io/assets/svg/logo-angular-text.svg" alt="" width="80px" class="">
+              <img src="https://www.abp.io/assets/svg/logo-mvc.svg" alt="" width="80px" class="ms-lg-5 ms-md-5 ms-3">
+              <img src="https://www.abp.io/assets/svg/logo-blazor.svg" alt="" width="80px" class="ms-lg-5 ms-md-5 ms-3">
+            </div>
+          </div>
+        </section>
+        <section id="multidatabas" class="mt-4">
+          <div class="card p-3">
+            <h3>Multiple Database Providers </h3>
+            <p class="text-light-dark fs-13">
+              The framework can work with any data source, while the following providers are officially developed and supported:
+           </p>
+            <div class="d-lg-flex d-md-flex">
+              <img src="https://www.abp.io/assets/svg/logo-entity-framework.svg" alt="" width="80px" class="">
+              <img src="https://www.abp.io/assets/svg/logo-mongo.svg" alt="" width="80px" class="ms-lg-5 ms-md-5 ms-3">
+              <img src="https://www.abp.io/assets/svg/logo-dapper.svg" alt="" width="80px" class="ms-lg-5 ms-md-5 ms-3">
+            </div>
+          </div>
+        </section>
+        <section id="ablCli" class="mt-4">
+          <div class="card p-3">
+            <h3>ABP CLI  </h3>
+            <p class="text-light-dark fs-13">
+              ABP CLI (Command Line Interface) is a command line tool to automate some common operations for ABP based solutions.
+           </p>
+           <div class="border-radius-10 text-white pt-5 px-3 chenge-scroll" style="border: solid 3px black; height: 280px;  overflow: auto; background-color: #292d33; ">
+            <p class="text-light-dark m-0"> # Create a new layered application</p>
+            <p> <b>abp new Acme.BookStore</b></p>
+         <p class="text-light-dark mt-4 m-0"># Create a new layered application using MongoDB</p>
+         <p class="text-white m-0 "><b>abp new Acme.BookStore -d mongodb</b></p>
+         <p class="text-light-dark mt-4 m-0"># Add a new module to the solution</p>
+         <p class="text-white m-0 "><b>abp add-module Volo.Blogging</b></p>
+         
+             </div>
+             <div class="mt-3" style="height: 1px; background-color: #dee2e6;"></div>
+             <div class="pt-3 pb-2">
+              Check out the <a href="#" class="text-primary text-decoration-none">CLI document</a> for more information
+            </div>
+            </div> 
+          
+        </section>
+        <section id="modularity" class="mt-4">
+          <div class="card p-3">
+            <h3>Modularity  </h3>
+            <p class="text-light-dark fs-13">
+              ABP provides a complete infrastructure to build your own application modules that may have entities, services, database integration, APIs, UI components and so on..
+           </p>
+           <div class="border-radius-10 text-white pt-5 px-3 chenge-scroll" style="border: solid 3px black; overflow: auto; height: 400px; background-color: #292d33; ">
+            <p class="text-light-dark m-0"> # Create a new layered application</p>
+            <p> <b>abp new Acme.BookStore</b></p>
+         <p class=" mt-4 m-0">[DependsOn(
+          typeof(AbpEntityFrameworkCoreModule), //Depending on a framework module
+          typeof(MyBusinessModule) //Depending on your own module
+      )]</p>
+         <p class="text-white m-0 "><b>public class MyAppModule : AbpModule</b></p>
+         <p class=" mt-4 m-0">
+          {
+            public override void ConfigureServices(ServiceConfigurationContext context) <br>
+            {
+                //Configure DI and other modules...  <br>
+            }
+        
+            public override void OnApplicationInitialization(ApplicationInitializationContext context) <br>
+            {
+                //Perform some application initialization logic... <br>
+            }
+        }
+        
+         </p>
+        
+         
+             </div>
+             <div class="mt-3" style="height: 1px; background-color: #dee2e6;"></div>
+             <div class="pt-3 pb-2">
+              Check out the <a href="#" class="text-primary text-decoration-none">  module development  document</a> for more information
+            </div>
+            </div> 
+          
+        </section>
+        <section id="multitency" class="mt-4">
+          <div class="card p-3">
+            <h3>Multi-Tenancy  </h3>
+            <p class="text-light-dark fs-13">
+              <p  class="text-light-dark px-3">The core framework & pre-built modules are designed with microservice architecture in mind.</p>
+              <p  class="text-light-dark px-3">Can automatically determine the current tenant, isolate data of different tenants from each other.              </p>
+              <p  class="text-light-dark px-3">Supports single database, database per tenant and hybrid approaches.</p>
+              <p  class="text-light-dark px-3">You focus on your business code and let the framework handle multi-tenancy on behalf of you.</p>
+              <div class="bg-white  border-radius-10 py-3 " style="overflow: auto;">
+                <div class="ig-elements"></div> <br>
+                <div class="border-radius-10 m-auto mt-4 px-2 d-flex" style="width: 180px; background-color: #6457c1; height: 70px;">
+                  <p class="text-white mt-2">User Interface</p>
+                  <img src="https://abp.io/assets/svg/icon-user-interface.svg" alt="" class="ml-auto" style="width: 50px;">
+                </div>
+                <div class="border-radius-10 m-auto mt-4 px-2 d-flex" style="width: 180px; background-color: #b84297; height: 70px;">
+                  <p class="text-white mt-2">API Gateway</p>
+                  <img src="https://abp.io/assets/svg/icon-api-gateway.svg" alt="" class="ml-auto" style="width: 50px;">
+                </div>
+                <div class="d-flex justify-content-lg-center justify-content-md-center px-3 px-lg-0 " >
+                  <div class="border-radius-10 me-4 mt-4 px-2 d-flex" style="min-width: 180px; background-color: #3e9fcb; height: 70px;">
+                    <p class="text-white mt-2">Microservice</p>
+                    <img src="https://abp.io/assets/svg/icon-microservice.svg" alt="" class="ml-auto" style="width: 50px;">
+                  </div>
+                  <div class="border-radius-10 me-4 mt-4 px-2 d-flex" style="min-width: 180px; background-color: #3e9fcb; height: 70px;">
+                    <p class="text-white mt-2">Microservice</p>
+                    <img src="https://abp.io/assets/svg/icon-microservice.svg" alt="" class="ml-auto" style="width: 50px;">
+                  </div>
+                  <div class="border-radius-10 mt-4   px-2 d-flex" style="min-width: 180px; background-color: #3e9fcb; height: 70px;">
+                    <p class="text-white mt-2">Microservice</p>
+                    <img src="https://abp.io/assets/svg/icon-microservice.svg" alt="" class="ml-auto" style="width: 50px;">
+                  </div>
+                
+                  </div>
+           <br>
+              <div class="d-flex justify-content-lg-center justify-content-md-center px-3 px-lg-0 " >
+                <div class="border-radius-10 me-4 mt-4 px-2 d-flex" style="min-width: 180px; border: solid 2px #3e9fcb; height: 70px;">
+                  <p class="text-light-dark mt-2">Database</p>
+                 <i class="fa-solid fa-database ml-auto fs-1 d-flex align-self-center" style="color: #3e9fcb;"></i>
+                </div>
+                <div class="border-radius-10 me-4 mt-4 px-2 d-flex" style="min-width: 180px;  border: solid 2px #3e9fcb;  height: 70px;">
+                  <p class="text-light-dark mt-2">Database</p>
+                  <i class="fa-solid fa-database ml-auto fs-1 d-flex align-self-center" style="color: #3e9fcb;"></i>
+                </div>
+                <div class="border-radius-10 mt-4   px-2 d-flex" style="min-width: 180px; ; border: solid 2px #3e9fcb; height: 70px;">
+                  <p class="text-light-dark mt-2">Database</p>
+                  <i class="fa-solid fa-database ml-auto  fs-1 d-flex align-self-center" style="color: #3e9fcb;"></i>
+                </div>
+                <div class="border-radius-10 mt-4 d-block d-lg-none d-md-none  px-2 d-flex" style="min-width: 0px; height: 70px;">
+                </div>
+            </div>
+            </div>
+             <div class="mt-3" style="height: 1px; background-color: #dee2e6;"></div>
+             <div class="pt-3 pb-2">
+              Check out the <a href="#" class="text-primary text-decoration-none">  multi-tenancy document</a> for more information
+            </div>
+            </div> 
+          
+        </section>
+        <section id="bootstrap" class="mt-4">
+          <div class="card p-3">
+            <h3>Bootstrap Tag Helpers  </h3>
+            <p class="text-light-dark fs-13">
+              Instead of manually writing the repeating details of bootstrap components, use ABP's tag helpers to simplify it and take advantage of the IntelliSense. You can definitely use Bootstrap whenever you need it.
+           </p>
+           <div class="row h-100 ">
+            <div class="col-lg-6 col-12 pb-5 " style="height:initial !important; overflow: hidden;">
+              <h2>Code</h2>
+              <div class="form-floating  h-100">
+                <pre class="line-numbers language-html text-white border-radius-10" tabindex="0" style="background-color: #2d2d2d;"><code class="language-html">
+                  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>abp-card</span><span class="token punctuation">&gt;</span></span>
+                      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">abp-card-image</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Top<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">data-src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/images/my-dog.png<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>lazy<span class="token punctuation">"</span></span> <span class="token attr-name">loading</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>lazy<span class="token punctuation">"</span></span>
+                  <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>100%<span class="token punctuation">"</span></span> <span class="token attr-name">heigth</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>200px<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span>
+                      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>abp-card-body</span><span class="token punctuation">&gt;</span></span>
+                          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>abp-card-title</span><span class="token punctuation">&gt;</span></span>Card title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>abp-card-title</span><span class="token punctuation">&gt;</span></span>
+                          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>abp-card-text</span><span class="token punctuation">&gt;</span></span>
+                              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>
+                              This is a sample card component built by ABP bootstrap
+                              card tag helper. ABP has tag helper wrappers for most of
+                              the bootstrap components.
+                              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+                          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>abp-card-text</span><span class="token punctuation">&gt;</span></span>
+                          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">abp-button</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Primary<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript:void(0)<span class="token punctuation">"</span></span>  <span class="token punctuation">&gt;</span></span>Go somewhere <span class="token entity named-entity" title="→">&amp;rarr;</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+                      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>abp-card-body</span><span class="token punctuation">&gt;</span></span>
+                  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>abp-card</span><span class="token punctuation">&gt;</span></span>
+                  </code>
+                  </pre>
+
+              </div>
+             </div>
+            <div class="col-lg-6 col-12">
+              <h3>Result</h3>
+              <div class="card p-3" >
+                <img src="https://www.abp.io/assets/my-image.png" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a sample card component built by ABP bootstrap card tag helper.
+                 </p>
+                  <button href="#" class=" btn btn-bg-color text-white border-0 py-2">Go somewhere</button>
+                </div>
+              </div>
+            </div>
+           </div>
+             <div class="mt-3" style="height: 1px; background-color: #dee2e6;"></div>
+             <div class="pt-3 pb-2">
+              Check out the <a href="#" class="text-primary text-decoration-none">  tag helpers document </a> for more information
+            </div>
+            </div> 
+          
+        </section>
+        <section id="form" class="mt-4">
+          <div class="card p-3">
+            <h3>Dynamic Forms  </h3>
+            <p class="text-light-dark fs-13">
+              Dynamic form & input tag helpers can create the complete form from a C# class as the model.
+           </p>
+        <div class="row m-0">
+          <div class="col-lg-7 col-12 h-100 ">
+            <div class="card p-3 h-100">
+            <h5 class="text-bolder"> view</h5>
+            <pre class="language-markup border-radius-10 code-show text-white" tabindex="0"><code class="language-markup" >
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>abp-dynamic-form</span> <span class="token attr-name">abp-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>@Model.PersonInput<span class="token punctuation">"</span></span> <span class="token attr-name">submit-button</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+              </code>
+              </pre>
+              <h5 class="text-bolder"> Model:</h5>
+              <pre class="line-numbers language-csharp border-radius-10 code-show text-white" tabindex="0"><code class="language-csharp">
+                <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">PersonModel</span>
+                <span class="token punctuation">{</span>
+                    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">HiddenInput</span></span><span class="token punctuation">]</span>
+                    <span class="token keyword">public</span> <span class="token return-type class-name">Guid</span> Id <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+                
+                    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">Required</span></span><span class="token punctuation">]</span>
+                    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">EmailAddress</span></span><span class="token punctuation">]</span>
+                    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">StringLength</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+                    <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> Email <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+                
+                    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">Required</span></span><span class="token punctuation">]</span>
+                    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">StringLength</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token number">32</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+                    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">DataType</span><span class="token attribute-arguments"><span class="token punctuation">(</span>DataType<span class="token punctuation">.</span>Password<span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+                    <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> Password <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+                
+                    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">StringLength</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+                    <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> Address <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+                
+                    <span class="token keyword">public</span> <span class="token return-type class-name">Gender</span> Gender <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+                </code>
+              </div>
+          </div>
+          <div class="col-lg-5 col-12 h-100 " style="height: initial !important;">
+           <div class="card p-3 h-100 ">
+            <h4>Result</h4>
+            <form class="row g-3">
+              <div class="col-12">
+                <label for="inputEmail4" class="form-label">Email*</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+           
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Password*</label>
+                <input type="password" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address </label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+            
+              <div class="col-12">
+                <label for="inputState" class="form-label">Gender</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Unpecified</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+              </div>
+           
+              <div class="col-12">
+                <button type="submit" class="btn btn-bg-color text-white">Submit</button>
+              </div>
+            </form>
+           </div>
+          </div>
+        </div>
+             <div class="mt-3" style="height: 1px; background-color: #dee2e6;"></div>
+             <div class="pt-3 pb-2">
+              Check out the <a href="#" class="text-primary text-decoration-none">  tag helpers document </a> for more information
+            </div>
+            </div> 
+          
+        </section>
+        <section id="authentication" class="mt-4 ">
+          <div class="card p-3">
+            <h3>Bootstrap Tag Helpers  </h3>
+            <p class="text-light-dark fs-13">
+              Rich authentication & authorization options integrated to ASP.NET Core Identity & IdentityServer4. <br> Provides an extensible & detailed permission system.
+           </p>
+       
+             <div class="mt-3" style="height: 1px; background-color: #dee2e6;"></div>
+             <div class="pt-3 pb-2">
+              Check out the <a href="#" class="text-primary text-decoration-none"> authorization document </a> for more information
+            </div>
+            </div> 
+          
+        </section>
+        <section id="cross" class="mt-4">
+          <div class="card p-4">
+            <h3>Cross Cutting Concerns  </h3>
+            <p class="text-light-dark fs-13">
+              Don't repeat yourself to implement all this common stuff again & again. Focus on your business <br> code and let ABP automate them by conventions.
+           </p>
+       <div class="ps-3 checkiconBefore">
+        <a href="#" class="text-decoration-none pt-2 ps-5 d-block">Authorization</a>
+        <a href="#" class="text-decoration-none pt-2 ps-5 d-block">Validation</a>
+        <a href="#" class="text-decoration-none pt-2 ps-5 d-block">Caching</a>
+        <a href="#" class="text-decoration-none pt-2 ps-5 d-block">Exception Handling</a>
+        <a href="#" class="text-decoration-none pt-2 ps-5 d-block">Database Connection & Transaction Management</a>
+        <a href="#" class="text-decoration-none pt-2 ps-5 d-block">Audit Logging</a>
+        <a href="#" class="text-decoration-none pt-2 ps-5 d-block">Correlation-Id Tracking</a>
+       </div>
+        </section>
+            <section id="bundle" class="mt-4">
+          <div class="card p-3 pt-4">
+            <h3>Bundling & Minification </h3>
+            <p class="text-light-dark fs-13">
+              ABP offers a simple, dynamic, powerful, modular and built-in bundling & minification system.
+           </p>
+           <pre class="line-numbers language-xml border-radius-10 text-white code-show" lang="xml" tabindex="0"><code class="language-xml">
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>abp-style-bundle</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>MyGlobalBundle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>abp-style</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/libs/bootstrap/css/bootstrap.css<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>abp-style</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/libs/font-awesome/css/font-awesome.css<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>abp-style</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/libs/toastr/toastr.css<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>abp-style</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/styles/my-global-style.css<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>abp-style-bundle</span><span class="token punctuation">&gt;</span></span>
+            </code>
+            </pre>
+             <div class="mt-3" style="height: 1px; background-color: #dee2e6;"></div>
+             <div class="pt-3 pb-5">
+              Check out the <a href="#" class="text-primary text-decoration-none">bundling & minification document </a> for more information
+            </div>
+            </div> 
+          
+        </section>
+        <section id="virtual" class="mt-4 " >
+          <div class="card   p-3 pt-4" style="overflow-x: auto;">
+            <h3>Virtual File System</h3>
+            <p class="text-light-dark fs-13">
+              The Virtual File System makes it possible to manage files that do not physically exist on the file system (disk). It's mainly used to embed the (js, css, image, cshtml...)  files into assemblies and use them like physical files on runtime.
+           </p>
+          <div class="d-flex  justify-content-lg-center align-items-lg-center  justify-content-md-center align-items-md-center">
+            <div class="flex-items">
+              <div class="border-radius-10" style="border: #6457c1 solid 2px; width: 180px; height: 70px;">
+                <div class="d-flex px-2">
+                  <p class="text-bold pt-1" style="color: #6457c1;">Static File Middleware</p>
+                  <img src="https://www.abp.io/assets/svg/icon-static-file-middleware.svg" alt="">
+                </div>
+              </div>
+              <div class="border-radius-10 mt-3" style="border: #6457c1 solid 2px; width: 180px; height: 70px;">
+                <div class="d-flex px-2">
+                  <p class="text-bold pt-1" style="color: #6457c1;">Static File Middleware</p>
+                  <img src="https://www.abp.io/assets/svg/icon-static-file-middleware.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="flex-items px-3">
+              <div class="border-radius-10" style="border: #6457c1 solid 2px; width: 180px; height: 70px;">
+                <div class="d-flex px-2">
+                  <p class="text-bold pt-1" style="color: #6457c1;">Static File Middleware</p>
+                  <img src="https://www.abp.io/assets/svg/icon-static-file-middleware.svg" alt="">
+                </div>
+              </div>
+           
+            </div>
+            <div class="flex-items">
+              <div class="border-radius-10" style="border: #6457c1 solid 2px; width: 180px; height: 70px;">
+                <div class="d-flex px-2">
+                  <p class="text-bold pt-1" style="color: #6457c1;">Static File Middleware</p>
+                  <img src="https://www.abp.io/assets/svg/icon-static-file-middleware.svg" alt="">
+                </div>
+              </div>
+              <div class="border-radius-10 mt-3" style="border: #6457c1 solid 2px; width: 180px; height: 70px;">
+                <div class="d-flex px-2">
+                  <p class="text-bold pt-1" style="color: #6457c1;">Static File Middleware</p>
+                  <img src="https://www.abp.io/assets/svg/icon-static-file-middleware.svg" alt="">
+                </div>
+              </div>
+              <div class="border-radius-10 mt-3" style="border: #6457c1 solid 2px; width: 180px; height: 70px;">
+                <div class="d-flex px-2">
+                  <p class="text-bold pt-1" style="color: #6457c1;">Static File Middleware</p>
+                  <img src="https://www.abp.io/assets/svg/icon-static-file-middleware.svg" alt="">
+                </div>
+              </div>
+             
+            </div>
+            <div class="border-radius-10 mt-3 d-lg-none d-md-none" style="border: white solid 2px; width: 180px; height: 70px;">
+              <p style="visibility: hidden;">fd</p>
+            </div>
+          </div>
+             <div class="mt-3" style="height: 1px; background-color: #dee2e6;"></div>
+             <div class="pt-3 pb-2">
+              Check out the <a href="#" class="text-primary text-decoration-none">virtual file system document </a> for more information
+            </div>
+            </div> 
+          
+        </section>
+        <section id="theming" class="mt-4">
+          <div class="card p-3 pt-4">
+            <h3>Theming </h3>
+            <p class="text-light-dark fs-13">
+              Theming system allows developing your application &amp; modules theme independent by defining a set of common base libraries and layouts, based on the latest Bootstrap framework.
+           </p>
+           <img src="https://www.abp.io/assets/png/theming.png" alt="">
+             <div class="mt-3" style="height: 1px; background-color: #dee2e6;"></div>
+             <div class="pt-3 pb-2">
+              Check out the <a href="#" class="text-primary text-decoration-none"> theming document</a> for more information
+            </div>
+            </div> 
+          
+        </section>
+        <section id="background" class="mt-4">
+          <div class="card p-3 pt-4">
+            <h3>Background Jobs </h3>
+            <p class="text-light-dark fs-13">
+              Define simple classes to execute jobs in the background as queued. Use the built-in job manager or integrate your own. <a href="#" class="text-decoration-none">Hangfire</a> & <a href="#" class="text-decoration-none">RabbitMQ</a> integrations are already available.
+           </p>
+           <pre class="line-numbers language-csharp text-white code-show border-radius-10" tabindex="0"><code class="language-csharp">
+            <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">EmailSendingJob</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">BackgroundJob<span class="token punctuation">&lt;</span>EmailSendingArgs<span class="token punctuation">&gt;</span></span></span>
+            <span class="token punctuation">{</span>
+                <span class="token keyword">private</span> <span class="token keyword">readonly</span> <span class="token class-name">IEmailSender</span> _emailSender<span class="token punctuation">;</span>
+            
+                <span class="token keyword">public</span> <span class="token function">EmailSendingJob</span><span class="token punctuation">(</span><span class="token class-name">IEmailSender</span> emailSender<span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    _emailSender <span class="token operator">=</span> emailSender<span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            
+                <span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Execute</span><span class="token punctuation">(</span><span class="token class-name">EmailSendingArgs</span> args<span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    _emailSender<span class="token punctuation">.</span><span class="token function">Send</span><span class="token punctuation">(</span>
+                        args<span class="token punctuation">.</span>EmailAddress<span class="token punctuation">,</span>
+                        args<span class="token punctuation">.</span>Subject<span class="token punctuation">,</span>
+                        args<span class="token punctuation">.</span>Body
+                    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+            </code>
+            </pre>
+             <div class="mt-3" style="height: 1px; background-color: #dee2e6;"></div>
+             <div class="pt-3 pb-2">
+              Check out the <a href="#" class="text-primary text-decoration-none"> background jobs document</a> for more information
+            </div>
+            </div> 
+          
+        </section>
+        <section id="ddd" class="mt-4">
+          <div class="card p-3 pt-4">
+            <h3>Background Jobs </h3>
+            <p class="text-light-dark fs-13">
+              Define simple classes to execute jobs in the background as queued. Use the built-in job manager or integrate your own. <a href="#" class="text-decoration-none">Hangfire</a> & <a href="#" class="text-decoration-none">RabbitMQ</a> integrations are already available.
+           </p>
+           <div class="row m-0">
+            <div class="col-lg-4 col-12">
+              <div class=" checkiconBefore">
+                <a href="#" class="text-decoration-none pt-2 ps-5 d-block">Aggregate Root, Entity</a>
+                <a href="#" class="text-decoration-none pt-2 ps-5 d-block">Value Object</a>
+                <a href="#" class="text-decoration-none pt-2 ps-5 d-block">Domain Service</a>
+                <a href="#" class="text-decoration-none pt-2 ps-5 d-block">Repository</a>
+                <a href="#" class="text-decoration-none pt-2 ps-5 d-block">Application Service</a>
+                <a href="#" class="text-decoration-none pt-2 ps-5 d-block">Data Transfer Object</a>
+                <a href="#" class="text-decoration-none pt-2 ps-5 d-block">Specification</a>
+                <a href="#" class="text-decoration-none pt-2 ps-5 d-block">and More...</a>
+               </div>
+            </div>
+            <div class="col-lg-8 col-12">
+              <pre class="line-numbers language-csharp text-white border-radius-10 code-show" tabindex="0"><code class="language-csharp">
+                <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">BookAppService</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">ApplicationService</span><span class="token punctuation">,</span> <span class="token class-name">IBookAppService</span></span>
+                <span class="token punctuation">{</span>
+                    <span class="token keyword">private</span> <span class="token keyword">readonly</span> <span class="token class-name">IRepository<span class="token punctuation">&lt;</span>Book<span class="token punctuation">,</span> Guid<span class="token punctuation">&gt;</span></span> _bookRepository<span class="token punctuation">;</span>
+                
+                    <span class="token keyword">public</span> <span class="token function">BookAppService</span><span class="token punctuation">(</span><span class="token class-name">IRepository<span class="token punctuation">&lt;</span>Book<span class="token punctuation">,</span> Guid<span class="token punctuation">&gt;</span></span> bookRepository<span class="token punctuation">)</span>
+                    <span class="token punctuation">{</span>
+                        _bookRepository <span class="token operator">=</span> bookRepository<span class="token punctuation">;</span>
+                    <span class="token punctuation">}</span>
+                
+                    <span class="token keyword">public</span> <span class="token keyword">async</span> <span class="token return-type class-name">Task</span> <span class="token function">CreateAsync</span><span class="token punctuation">(</span><span class="token class-name">CreateBookDto</span> input<span class="token punctuation">)</span>
+                    <span class="token punctuation">{</span>
+                        <span class="token class-name"><span class="token keyword">var</span></span> book <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token constructor-invocation class-name">Book</span><span class="token punctuation">(</span>
+                            GuidGenerator<span class="token punctuation">.</span><span class="token function">Create</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+                            input<span class="token punctuation">.</span>Name<span class="token punctuation">,</span>
+                            input<span class="token punctuation">.</span>Type<span class="token punctuation">,</span>
+                            input<span class="token punctuation">.</span>Price
+                        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+                
+                        <span class="token keyword">await</span> _bookRepository<span class="token punctuation">.</span><span class="token function">InsertAsync</span><span class="token punctuation">(</span>book<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+                </code>
+                </pre>
+            </div>
+           </div>
+             <div class="mt-3" style="height: 1px; background-color: #dee2e6;"></div>
+             <div class="pt-3 pb-2">
+              Check out the <a href="#" class="text-primary text-decoration-none"> background jobs document</a> for more information
+            </div>
+            </div> 
+          
+        </section>
+        <section id="autorest" class="mt-4">
+          <div class="card p-3 pt-4">
+            <h3>Auto REST APIs </h3>
+            <p class="text-light-dark fs-13">
+              ABP can automagically configure your application services as API Controllers by convention.
+           </p>
+           <img src="https://www.abp.io/assets/png/bookstore-apis.png" alt="">
+             <div class="mt-3" style="height: 1px; background-color: #dee2e6;"></div>
+             <div class="pt-3 pb-2">
+              Check out the <a href="#" class="text-primary text-decoration-none"> auto API controllers document</a> for more information
+            </div>
+            </div> 
+          
+        </section>
+        <section id="dynamiClient" class="mt-4 " >
+          <div class="card   p-3 pt-4">
+            <h3>Dynamic Client Proxies</h3>
+            <p class="text-light-dark fs-13">
+              Easily consume your APIs from JavaScript and C# clients.
+           </p>
+          
+           <pre class="line-numbers language-js" tabindex="0">                <code class="language-js">
+            <span class="token comment">//Call remote APIs just like local functions in JavaScript</span>
+            acme<span class="token punctuation">.</span>bookStore<span class="token punctuation">.</span>book
+                <span class="token punctuation">.</span><span class="token function">getList</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+                <span class="token punctuation">.</span><span class="token function">done</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">result</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                    <span class="token comment">//...</span>
+                <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                </code>
+            </pre>
+             <div class="mt-3" style="height: 1px; background-color: #dee2e6;"></div>
+             <div class="pt-3 pb-2">
+              Check out the dynamic client proxy documentations for <a href="#" class="text-decoration-none">JavaScript</a> & <a href="#" class="text-decoration-none">C#</a>.
+            </div>
+            </div> 
+          
+        </section>
+        <section id="distribuited" class="mt-4 " >
+          <div class="card   p-3 pt-4" style="overflow-x: auto;">
+            <h3>Distributed Event Bus with RabbitMQ Integration</h3>
+            <p class="text-light-dark fs-13">
+              Easily publish & consume distributed events using built-in Distributed Event Bus with RabbitMQ integration available.
+           </p>
+           <div class="row m-0">
+            <div class="col-lg-7">
+              <h5 class="fw-bolder">Publish Events:</h5>
+              <pre class="line-numbers language-csharp" tabindex="0"><code class="language-csharp">
+                <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">PublisherDemo</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">ITransientDependency</span></span>
+                <span class="token punctuation">{</span>
+                    <span class="token keyword">private</span> <span class="token keyword">readonly</span> <span class="token class-name">IDistributedEventBus</span> _distributedEventBus<span class="token punctuation">;</span>
+                
+                    <span class="token keyword">public</span> <span class="token function">PublisherDemo</span><span class="token punctuation">(</span>
+                        <span class="token class-name">IDistributedEventBus</span> distributedEventBus<span class="token punctuation">)</span>
+                    <span class="token punctuation">{</span>
+                        _distributedEventBus <span class="token operator">=</span> distributedEventBus<span class="token punctuation">;</span>
+                    <span class="token punctuation">}</span>
+                
+                    <span class="token keyword">public</span> <span class="token keyword">async</span> <span class="token return-type class-name">Task</span> <span class="token function">RunAsync</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+                    <span class="token punctuation">{</span>
+                        <span class="token comment">//Publish an event</span>
+                        <span class="token keyword">await</span> _distributedEventBus<span class="token punctuation">.</span><span class="token function">PublishAsync</span><span class="token punctuation">(</span>
+                            <span class="token keyword">new</span> <span class="token constructor-invocation class-name">StockCountChangedEvent</span><span class="token punctuation">(</span>productId<span class="token punctuation">,</span> <span class="token number">42</span><span class="token punctuation">)</span>
+                        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+                </code>
+                </pre>
+            </div>
+            <div class="col-lg-5 col-12">
+              <h5 class="fw-bolder">Handle  Events:</h5>
+              <pre class="line-numbers language-csharp" tabindex="0"> <code class="language-csharp">
+                <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">MyEventHandler</span>
+                    <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">IDistributedEventHandler<span class="token punctuation">&lt;</span>StockCountChangedEvent<span class="token punctuation">&gt;</span></span></span>
+                <span class="token punctuation">{</span>
+                    <span class="token keyword">public</span> <span class="token return-type class-name">Task</span> <span class="token function">HandleEventAsync</span><span class="token punctuation">(</span><span class="token class-name">StockCountChangedEvent</span> eventData<span class="token punctuation">)</span>
+                    <span class="token punctuation">{</span>
+                        <span class="token comment">//Handle the event and execute your business</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+                </code>
+                </pre>
+            </div>
+           </div>
+             <div class="mt-3" style="height: 1px; background-color: #dee2e6;"></div>
+             <div class="pt-3 pb-2">
+              <p>Check out the <a  href="#" class="text-decoration-none ">distributed event bus document</a> for more information</p>
+            </div>
+            </div> 
+          
+        </section>
+        <section id="bolb" class="mt-4 " >
+          <div class="card   p-3 pt-4" style="overflow-x: auto;">
+            <h3>BLOB Storing</h3>
+            <p class="text-light-dark fs-13">
+              BLOB Storing system provides an abstraction to work with BLOBs. ABP provides some pre-built storage provider integrations (Azure, AWS, File System, Database, etc.) that you can easily use in your applications.
+           </p>
+           <pre class="line-numbers language-csharp" tabindex="0">                        <code class="language-csharp">
+            <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">MyService</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">ITransientDependency</span></span>
+            <span class="token punctuation">{</span>
+                <span class="token keyword">private</span> <span class="token keyword">readonly</span> <span class="token class-name">IBlobContainer</span> _blobContainer<span class="token punctuation">;</span>
+            
+                <span class="token keyword">public</span> <span class="token function">MyService</span><span class="token punctuation">(</span><span class="token class-name">IBlobContainer</span> blobContainer<span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    _blobContainer <span class="token operator">=</span> blobContainer<span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            
+                <span class="token keyword">public</span> <span class="token keyword">async</span> <span class="token return-type class-name">Task</span> <span class="token function">SaveBytesAsync</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> bytes<span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    <span class="token keyword">await</span> _blobContainer<span class="token punctuation">.</span><span class="token function">SaveAsync</span><span class="token punctuation">(</span><span class="token string">"my-blob"</span><span class="token punctuation">,</span> bytes<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            
+                <span class="token keyword">public</span> <span class="token keyword">async</span> <span class="token return-type class-name">Task<span class="token punctuation">&lt;</span><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">&gt;</span></span> <span class="token function">GetBytesAsync</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    <span class="token keyword">return</span> <span class="token keyword">await</span> _blobContainer<span class="token punctuation">.</span><span class="token function">GetAllBytesOrNullAsync</span><span class="token punctuation">(</span><span class="token string">"my-blob"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+                                </code>
+            </pre>
+             <div class="mt-3" style="height: 1px; background-color: #dee2e6;"></div>
+             <div class="pt-3 pb-2">
+              <p>Check out the <a  href="#" class="text-decoration-none ">BLOB Storing document</a> for more information</p>
+            </div>
+            </div> 
+          
+        </section>
+      </div>
+    </div>
+      <div class="p-0 px-lg-5 px-3 ">
+   <div class="card px-3   mt-5 w-100 py-5">
+    <div class="d-flex justify-content-between align-items-center flex-wrap">
+      <img src="https://abp.io/assets/svg/logo-abp-framework-dark.svg" alt="" width="180px">
+      <h6 class="my-3">
+        Open Source Web Application 
+      <span class="gradient-framework">Framework</span>
+      </h6>
+      <div class="d-lg-flex d-md-flex d-block">
+        <button class="px-3 btn btn-secondary border-0 text-white d-block" style="background-color: #923578;">Get Started</button>
+        <button class="px-3 btn text-dark bg-transperent  ms-0 ms-lg-4 ms-md-4 mt-3 mt-lg-0 mt-md-0" style="border: #b84297 solid 1px;" > <i class="fa-solid fa-code"></i> Source Code </button>
+      </div>
+    </div>
+   </div>
+   
+   <div class="card py-5 my-5 border-radius-10 " style="background:linear-gradient(to left,  #894eaf , #b2439a);">
+    <div class="row px-3 px-lg-5">
+      <div class="col-12 col-lg-6 ">
+        <h2 class="text-white">Subscribe to the Newsletter</h2>
+        <p class="text-light-dark">Get information about happenings in ABP like new releases, free sources, posts, and more.</p>
+
+      </div>
+      <div class="col-12 col-lg-6 p-0">
+        <div class="input-group ">
+          <input type="text" class="form-control py-4" placeholder="Email Address" aria-label="Dollar amount (with dot and two decimal places)">
+          <button class="btn btn-dark">Subscribe</button>
+        </div>
+       <div class="pt-3 d-flex align-items-center " style="padding-left: 22px; ">
+        <input class="form-check-input " type="checkbox" value="" id="reverseCheck1">
+        <label class="form-check-label text-light-dark ps-2" for="reverseCheck1">
+          I agree to the <a href="#" class="text-white">Terms & Conditions</a> and <a href="#" class="text-white">Privacy Policy.</a>
+        </label>
+        
+       </div>
+       <div class="pt-3 d-flex align-items-center" style="padding-left: 22px; ">
+        <input class="form-check-input " type="checkbox" value="" id="reverseCheck2">
+        <label class="form-check-label text-light-dark ps-2" for="reverseCheck2">
+          I would like to receive marketing materials like product deals & special offers.
+        </label>
+        
+       </div>
+      </div>
+    </div>
+  </div> 
+  </div>
+
+  <div class="row px-lg-5 px-3">
+    <div class="col-lg-4 col-12">
+      <img src="https://abp.io/assets/svg/abp-logo.svg" alt="" width="150px">
+      <p class="text-light-dark fs-13 mt-3">2013 - 2023 © Volosoft
+        Open source license with LGPLv3.0
+        Made with ❤️ on ABP v8.1.0 & .NET 8.0.0
+        Updated on December 25, 2023, 07:05</p>
+    </div>
+    <div class="col-lg-3 col-6">
+      <a href="#" class="nav-link fs-15 text-light-dark">GitHub</a> <br>
+      <a href="#" class="nav-link fs-15 text-light-dark">Twitter</a> <br>
+      <a href="#" class="nav-link fs-15 text-light-dark">Status</a>
+    </div>
+    
+    <div class="col-lg-3 col-6">
+      <a href="#" class="nav-link fs-15 text-light-dark">Stackoverflow</a> <br>
+      <a href="#" class="nav-link fs-15 text-light-dark">
+        YouTube</a> <br>
+    </div>
+    <div class="col-lg-2 mt-5 mt-lg-0 col-6">
+      <a href="#" class="nav-link fs-15 text-light-dark"><div class="icon-lang me-2"></div> English</a> <br>
+      <a href="#" class="nav-link fs-15 text-light-dark">
+        Discord</a> <br>
+    </div>
+  </div>
+  <br> <br>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+    var links = document.querySelectorAll('.sticky-Element a');
+    var sections = document.querySelectorAll('section');
+
+    function updateHighlightedLink() {
+      var scrollPosition = window.scrollY;
+
+      sections.forEach(function (section, index) {
+        if (scrollPosition >= section.offsetTop && scrollPosition < section.offsetTop + section.offsetHeight) {
+          links.forEach(function (link) {
+            link.classList.remove('highlighted');
+          });
+          links[index].classList.add('highlighted');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', updateHighlightedLink);
+    updateHighlightedLink(); // Initial check when the page loads
+  });
+  </script>
+</body>
+</html>
