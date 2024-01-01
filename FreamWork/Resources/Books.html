@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/cc00d27b50.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/Adb/Style.css">      
+    <link rel="stylesheet" href="Css/Books.css">
+    <title>Your Website Title</title>
+</head>
+<body>
+  <header class="border-bottom-1 ps-3 pe-1 px-lg-5  w-100 bg-white ">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+   <div class="d-flex align-items-center  ">
+    <a class="navbar-brand   text-decoration-none" href="#">
+        <img src="https://abp.io/assets/svg/abp-logo.svg" alt="Your Logo">
+      </a>
+      <a href="Index.html" class=" me-3 ms-3 border-radius-10  nav-link active d-none d-lg-flex" >FrameWork </a>
+      <a href="/Adb/Community/Community.html" class=" nav-link  w-h-80 d-none d-lg-flex">Community </a>
+      <a href="/Adb/Commercial/Commercial.html" class=" nav-link w-h-80 d-none d-lg-flex ">Commercial </a>
+      <div class="dropdown d-lg-none">
+        <a href="#"class=" nav-link  w-h-80 active dropdown-toggle " id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">FrameWork</a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="nav-link text-blue w-h-80" href="#">Community</a></li>
+          <li><a class="nav-link text-blue w-h-80" href="#">Commercial</a></li>
+        </ul>
+      </div>
+   </div>
+      <button class="navbar-toggler  bg-transperent  " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars menu-icon-color fs-3 "></i>
+            </button>
+      <div class="collapse navbar-collapse w-sm-100 pe-5 pe-lg-0 w-100 bg-light-gray z-index-3  position-md-fixed md-top-80" id="navbarNav">
+        <div class="d-lg-none">
+          <div>
+            <ul class=" p-0">
+              <li class="nav-item border-md-bottom-1 py-3">
+                <a href="" class="nav-link d-md-center   w-100 text-dark">Home</a>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3" >
+                <a href="" class="nav-link   d-md-center w-100 text-dark ">Get Started</a>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3">
+                <a href="" class="nav-link  d-md-center  w-100 text-dark ">Feature</a>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3 position-relative">
+                <a href="#" class="nav-link  d-md-center w-100 text-dark" data-bs-toggle="dropdown" aria-expanded="false">Resources <i class="fa-solid fa-caret-down ps-1"></i></a>
+                <ul class="dropdown-menu position-absolute top-10" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Books</a></li>
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Video Courses</a></li>
+                </ul>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3">
+                <a href="" class="nav-link   w-100 text-dark d-md-center">Documents <i class="fa fa-external-link ms-1"></i></a>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3 position-relative ">
+                <a href="#" class="nav-link  d-md-center   w-100 text-dark" data-bs-toggle="dropdown" aria-expanded="false">More <i class="fa-solid fa-caret-down ps-1"></i></a>
+                <ul class="dropdown-menu position-absolute top-10" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Packages <i class="fa fa-external-link ms-1"></i></a></li>
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Road Map <i class="fa fa-external-link ms-1"></i></a></li>
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Samples <i class="fa fa-external-link ms-1"></i></a></li>
+                </ul>
+              </li>
+              <li class="nav-item border-md-bottom-1 py-3">
+                <a href="#" class="nav-link w-100 text-dark d-md-center">Latest Release Logs   <i class="fa fa-external-link ms-1"></i>        </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item me-3 border-md-bottom-1">
+            <a class="nav-link text-dark nav-content  " href=""> Blog</a>
+          </li>
+          <li class="nav-item me-3 border-md-bottom-1  mt-lg-0">
+            <a class="nav-link text-dark nav-content mt-3 mt-lg-0 " href="#"> <i class="fa-brands fa-github pe-lg-1 fs-5"></i> GitHub</a>
+          </li>
+        <li class="nav-item mt-3 mt-lg-0">
+            <a href="#" class="text-decoration-none " >
+                <button class=" btn-secondary w-sm-100 btn-seting border-0 d-flex align-items-center justify-content-center">Login</button>
+            </a>
+        </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="navigation position-relative bg-white px-3 px-lg-5 pt-3 d-none d-lg-flex position-fixed top-75 w-100 justify-content-between z-index-3">
+    <div class="">
+      <ul class="d-flex ">
+        <li class="nav-item">
+          <a href="/Adb/FreamWork/Index.html" class="nav-link text-dark me-5 ">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="/Adb/FreamWork/GetStarted/GetStarted.html" class="nav-link me-5 text-dark ">Get Started</a>
+        </li>
+        <li class="nav-item">
+          <a href="/adb/FreamWork/Feature/Feature.html" class="nav-link me-5 text-dark ">Feature</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark " data-bs-toggle="dropdown" aria-expanded="false">Resources <i class="fa-solid fa-caret-down ps-1"></i></a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="">Books</a></li>
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Video Courses</a></li>
+          </ul>
+        </li>
+        <li class="nav-item ms-5 me-5">
+          <a href="" class="nav-link  text-dark ">Documents <i class="fa fa-external-link ms-1"></i></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark" data-bs-toggle="dropdown" aria-expanded="false">More <i class="fa-solid fa-caret-down ps-1"></i></a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Packages<i class="fa fa-external-link ms-1"></i></a></li>
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Road Map <i class="fa fa-external-link ms-1"></i></a></li>
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Samples <i class="fa fa-external-link ms-1"></i></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li class="nav-item">
+          <a href="#" class="nav-link ">Latest Release Logs   <i class="fa fa-external-link ms-1"></i>        </a>
+        </li>
+      </ul>
+    </div>
+  </div> 
+  <div class="mt-170">
+    <div class="row px-3 px-lg-5 h-100 p-0" >
+      <div class="col-lg-6 col-12" style="height: 620px;">
+        <div class="card text-center h-100 pt-5 px-lg-3 px-2">
+          <h3 class="fw-bolder text-brown">Mastering ABP Framework</h3>
+          <p class="text-light-dark fs-15">Written by the creator of the ABP Framework, this book will help you gain a complete understanding of the framework and modern web application development techniques.</p>
+          <div class="mt-5 d-flex align-items-center justify-content-center">
+            <img src="https://abp.io/assets/png/mastering-abp-framework.webp" alt="" width="350px" height="300px">
+          </div>
+          <div class="d-flex align-items-center justify-content-center my-3">
+
+            <button class="btn-bg-color text-white btn px-3 " >Details <i class="fa-solid fa-arrow-right ps-3"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-12 h-100" style=" height: initial !important;">
+        <div class="card text-center h-100 pt-5 px-lg-3 px-2" >
+          <h3 class="fw-bolder" style="color: #6457c1;">Implementing Domain Driven Design</h3>
+          <p class="text-light-dark fs-15">A practical guide for implementing the Domain Driven Design with the ABP Framework.</p>
+          <div class="mt-5 d-flex align-items-center justify-content-center">
+            <img src="https://abp.io/assets/png/abp-framework-free-ddd-ebook.webp" alt="" width="350px" height="300px">
+          </div>
+          <div class="d-flex align-items-center justify-content-center mt-3 mb-5">
+            <button class="btn-bg-download text-white btn  px-3 " ><i class="fa-solid fa-download pe-2"></i> Free Download </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row px-3 px-lg-5 h-100 mt-5 p-0" >
+      <div class="col-lg-6 col-12" style="height: 620px;">
+        <div class="card text-center h-100 pt-5 px-lg-3 px-2">
+          <h3 class="fw-bolder " style="color: #6457c1;">
+            Building Microservice Solutions</h3>
+          <p class="text-light-dark fs-15">This book is a reference guide for developing and managing microservice-based applications using the ABP Framework.</p>
+          <div class="mt-5 d-flex align-items-center justify-content-center">
+            <img src="https://abp.io/assets/png/abp-framework-free-MicroserviceSolutions-ebook.webp" alt="" width="200px" height="200px">
+          </div>
+          <div class="d-flex align-items-center justify-content-center my-3">
+            <button class="btn-bg-download text-white btn  px-3 " ><i class="fa-solid fa-download pe-2"></i> Free Download </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-12 h-100" style=" height: initial !important;">
+        <div class="card text-center h-100 pt-5 px-lg-3 px-2" >
+          <h3 class="fw-bolder" >Documentation</h3>
+          <p class="text-light-dark fs-15">Explore the comprehensive documentation and guides.</p>
+          <div class="mt-5 d-flex align-items-center justify-content-center">
+            <img src="https://abp.io/assets/png/documentation-icon.png" alt="" width="200px" height="200px">
+          </div>
+          <div class="d-flex align-items-center justify-content-center mt-3 mb-5">
+            <button class=" text-white btn  px-3 " style="background-color: #6457c1;">Documentation </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <div class="row px-lg-5 px-3">
+      <div class="p-0">
+   <div class="card px-3   mt-5 w-100 py-5">
+    <div class="d-flex justify-content-between align-items-center flex-wrap">
+      <img src="https://abp.io/assets/svg/logo-abp-framework-dark.svg" alt="" width="180px">
+      <h6 class="my-3">
+        Open Source Web Application 
+      <span class="gradient-framework">Framework</span>
+      </h6>
+      <div class="d-lg-flex d-md-flex d-block">
+        <button class="px-3 btn btn-secondary border-0 text-white d-block" style="background-color: #923578;">Get Started</button>
+        <button class="px-3 btn text-dark bg-transperent  ms-0 ms-lg-4 ms-md-4 mt-3 mt-lg-0 mt-md-0" style="border: #b84297 solid 1px;" > <i class="fa-solid fa-code"></i> Source Code </button>
+      </div>
+    </div>
+   </div>
+  
+   </div>
+   </div>
+   <div class="row p-0 bg-white  position-relative" style="bottom: 30px;">
+    <div class="col-lg-6 col-12 px-3 d-flex align-items-center justify-content-center flex-column border-lg-right" style="height: 550px;" >
+     <a href="#"><img src="https://abp.io/assets/svg/logo-abp-community-dark.svg" alt=""></a>
+     <p class="py-4 text-light-dark">Share your experiences with the ABP Framework!</p>
+     <div class="d-flex justify-content-between w-100 px-4">
+      <div >
+      <div class="w-h-100 rounded-circle d-flex flex-column align-items-center justify-content-center box-shadow bg-white">
+        <img src="https://abp.io/assets/svg/icon-feature-11.svg" alt="">
+        
+
+      </div>
+      <p class="text-light-dark mt-3 text-center">ABP Discord <br> Server</p>
+      </div>
+      <div>
+      <div class="w-h-100 rounded-circle d-flex align-items-center justify-content-center box-shadow bg-white">
+        <img src="https://abp.io/assets/svg/icon-feature-13.svg" alt="">
+      </div>
+      <p class="text-light-dark mt-3 text-center">ABP Community <br> Posts</p>
+    </div>
+    <div>
+      <div class="w-h-100 rounded-circle d-flex align-items-center justify-content-center box-shadow bg-white">
+        <img src="https://abp.io/assets/svg/icon-feature-15.svg" alt="">
+      </div>
+      <p class="text-light-dark text-center">10k+ Stars on <br> GitHub</p>
+    </div>
+     </div>
+     <div class="d-flex position-relative bottom-70 bottom-md-0 justify-content-center w-100 px-4">
+      <div  style="padding-right: 5rem ;" >
+      <div class="w-h-100 rounded-circle d-flex flex-column align-items-center justify-content-center box-shadow bg-white">
+        <img src="https://abp.io/assets/svg/icon-feature-12.svg" alt="">
+        
+
+      </div>
+      <p class="text-light-dark mt-3 text-center">ABP Discord <br> Server</p>
+      </div>
+      <div style="padding-left: 5rem; ">
+      <div class="w-h-100 rounded-circle d-flex align-items-center justify-content-center box-shadow bg-white">
+        <img src="https://abp.io/assets/svg/icon-feature-14.svg" alt="">
+      </div>
+      <p class="text-light-dark mt-3 text-center">ABP Community <br> Posts</p>
+    </div>
+     </div>
+    </div>
+    <div class="col-lg-6 col-12 px-3 d-flex align-items-center justify-content-center flex-column" style="height: 550px;" >
+      <a href="#"><img src="https://abp.io/assets/svg/logo-abp-community-dark.svg" alt=""></a>
+      <p class="py-4 text-light-dark">Share your experiences with the ABP Framework!</p>
+      <div class="d-flex justify-content-between w-100 px-4">
+       <div >
+       <div class="w-h-100 rounded-circle d-flex flex-column align-items-center justify-content-center box-shadow bg-dont">
+         <img src="https://abp.io/assets/svg/icon-feature-11.svg" alt="">
+         
+ 
+       </div>
+       <p class="text-light-dark mt-3 text-center">ABP Discord <br> Server</p>
+       </div>
+       <div>
+       <div class="w-h-100 rounded-circle d-flex align-items-center justify-content-center box-shadow bg-dont">
+         <img src="https://abp.io/assets/svg/icon-feature-13.svg" alt="">
+       </div>
+       <p class="text-light-dark mt-3 text-center">ABP Community <br> Posts</p>
+     </div>
+     <div>
+       <div class="w-h-100 rounded-circle d-flex align-items-center justify-content-center box-shadow bg-dont">
+         <img src="https://abp.io/assets/svg/icon-feature-15.svg" alt="">
+       </div>
+       <p class="text-light-dark text-center">10k+ Stars on <br> GitHub</p>
+     </div>
+      </div>
+      <div class="d-flex position-relative bottom-70 bottom-md-0 justify-content-center w-100 px-4">
+       <div  style="padding-right: 5rem ;" >
+       <div class="w-h-100 rounded-circle d-flex flex-column align-items-center justify-content-center box-shadow bg-dont">
+         <img src="https://abp.io/assets/svg/icon-feature-12.svg" alt="">
+       </div>
+       <p class="text-light-dark mt-3 text-center">ABP Discord <br> Server</p>
+       </div>
+       <div style="padding-left: 5rem; ">
+       <div class="w-h-100 rounded-circle d-flex align-items-center justify-content-center box-shadow bg-dont">
+         <img src="https://abp.io/assets/svg/icon-feature-14.svg" alt="">
+       </div>
+       <p class="text-light-dark mt-3 text-center">ABP Community <br> Posts</p>
+     </div>
+      </div>
+     </div>
+   </div>
+   <div class="px-lg-5 px-3">
+   <div class="card  py-5 my-5 border-radius-10 " style="background:linear-gradient(to left,  #894eaf , #b2439a);">
+    <div class="row px-3 px-lg-5">
+      <div class="col-12 col-lg-6 ">
+        <h2 class="text-white">Subscribe to the Newsletter</h2>
+        <p class="text-light-dark">Get information about happenings in ABP like new releases, free sources, posts, and more.</p>
+
+      </div>
+      <div class="col-12 col-lg-6 p-0">
+        <div class="input-group ">
+          <input type="text" class="form-control py-4" placeholder="Email Address" aria-label="Dollar amount (with dot and two decimal places)">
+          <button class="btn btn-dark">Subscribe</button>
+        </div>
+       <div class="pt-3 d-flex align-items-center " style="padding-left: 22px; ">
+        <input class="form-check-input " type="checkbox" value="" id="reverseCheck1">
+        <label class="form-check-label text-light-dark ps-2" for="reverseCheck1">
+          I agree to the <a href="#" class="text-white">Terms & Conditions</a> and <a href="#" class="text-white">Privacy Policy.</a>
+        </label>
+        
+       </div>
+       <div class="pt-3 d-flex align-items-center" style="padding-left: 22px; ">
+        <input class="form-check-input " type="checkbox" value="" id="reverseCheck2">
+        <label class="form-check-label text-light-dark ps-2" for="reverseCheck2">
+          I would like to receive marketing materials like product deals & special offers.
+        </label>
+        
+       </div>
+      </div>
+    </div>
+  </div> 
+ 
+ 
+  <div class="row ">
+    <div class="col-lg-4 col-12">
+      <img src="https://abp.io/assets/svg/abp-logo.svg" alt="" width="150px">
+      <p class="text-light-dark fs-13 mt-3">2013 - 2023 © Volosoft
+        Open source license with LGPLv3.0
+        Made with ❤️ on ABP v8.1.0 & .NET 8.0.0
+        Updated on December 25, 2023, 07:05</p>
+    </div>
+    <div class="col-lg-3 col-6">
+      <a href="#" class="nav-link fs-15 text-light-dark">GitHub</a> <br>
+      <a href="#" class="nav-link fs-15 text-light-dark">Twitter</a> <br>
+      <a href="#" class="nav-link fs-15 text-light-dark">Status</a>
+    </div>
+    
+    <div class="col-lg-3 col-6">
+      <a href="#" class="nav-link fs-15 text-light-dark">Stackoverflow</a> <br>
+      <a href="#" class="nav-link fs-15 text-light-dark">
+        YouTube</a> <br>
+    </div>
+    <div class="col-lg-2 mt-5 mt-lg-0 col-6">
+      <a href="#" class="nav-link fs-15 text-light-dark"><div class="icon-lang me-2"></div> English</a> <br>
+      <a href="#" class="nav-link fs-15 text-light-dark">
+        Discord</a> <br>
+    </div>
+  </div>
+</div>
+  <br> <br>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

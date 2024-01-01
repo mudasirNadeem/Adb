@@ -95,6 +95,9 @@ width: 100% !important;
 .w-hundred{
   width: 100% !important;
 }
+.bottom-md-0{
+  bottom: 0px !important;
+}
 }
 .btn-seting{
         background: linear-gradient(to right, #ad459d, #6f54bb);
@@ -277,4 +280,7 @@ header{
 }
 #floatingTextarea2 {
   white-space: pre-wrap !important;
+}
+.border-lg-right{
+  border-right: solid 2px #f9f9f9 !important;
 }
