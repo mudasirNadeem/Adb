@@ -1,0 +1,46 @@
+.unknow-image{
+    width: 100px;
+    height: 100px;
+    border: #facea8 solid 2px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: #facea8;
+}
+.z-index-1{
+    z-index: 1;
+}
+.modal.show .modal-dialog {
+    transform: none;
+    top: 30%;
+    left: 2%;
+}
+.btn-bg-download{
+    background-color: #3e9fcb !important;
+    border: 0;
+    height: 45px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.box-shadow{
+    box-shadow: 0px 0px 10px  hsla(233, 47%, 56%, 0.192) ;
+}
+.w-h-100{
+    width: 100px;
+    height: 100px;
+}
+.bottom-70{
+    bottom: 120px;
+}
+.bg-dont{
+    background-color: #3e9fcb;
+}
+.border-2{
+    border: solid 2px #3e9fcb !important;
+    color: #3e9fcb !important;
+    border-radius: 10px;
+    height: 45px;
+}
+
