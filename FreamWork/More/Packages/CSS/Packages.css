@@ -1,0 +1,49 @@
+.btn-bg-download{
+    background-color: #3e9fcb !important;
+    border: 0;
+    height: 45px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.box-shadow{
+    box-shadow: 0px 0px 10px  hsla(233, 47%, 56%, 0.192) ;
+}
+.w-h-100{
+    width: 100px;
+    height: 100px;
+}
+.bottom-70{
+    bottom: 120px;
+}
+.bg-dont{
+    background-color: #3e9fcb;
+}
+.border-2{
+    border: solid 2px #3e9fcb !important;
+    color: #3e9fcb !important;
+    border-radius: 10px;
+    height: 45px;
+}
+#Commercial:checked ~ .checkblock{
+    display: block !important;
+}
+#Commercial:checked ~ .checknone{
+    display: none !important;
+}
+.btn-gridient {
+    width: 400px !important;
+    background: linear-gradient(to left, #ad449c, #6c54bc);
+    color: white !important;
+    height: 60px;
+}
+.btn-clickable{
+    width: 400px !important;
+    height: 60px;
+    background-color: transparent;
+}
+.search-image{
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"%3E%3Cpath d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"%3E%3C/path%3E%3C/svg%3E');
+    background-repeat: no-repeat !important;
+    background-position: 5px center  !important;
+    background-size: 15px;
+}
