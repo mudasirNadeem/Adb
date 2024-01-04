@@ -1,0 +1,124 @@
+.mt-100{
+    margin-top: 100px;
+}
+.bg-dark-light{
+    background-color: #292d33;
+}
+.card{
+    border-radius: 10px;
+}
+.box-shadow:focus{
+    box-shadow: none;
+}
+.text-white-dark{
+    color: #b7b6b5;
+}
+.search-text{
+    color:#b7b6b5 !important ;
+    padding-left: 33px !important;
+}
+a{
+    text-decoration: none !important;
+}
+.border-bottom-1{
+    border-bottom: solid 1px #eaeaea;
+}
+header{
+    position: relative !important;
+}
+
+
+.fs-12{
+    font-size: 12px;
+}
+.white-border{
+    outline: solid 2px white;
+}
+.remove-position-hover:hover .left-10{
+    left: 12px !important;
+    transition: .2s;
+}
+.remove-position-hover:hover .left-20{
+    left: 18px !important;
+    transition: .2s;
+
+}
+.remove-position-hover:hover .left-30{
+    left: 25px !important;
+    transition: .2s;
+}
+.remove-position-hover:hover .left-5{
+    left: 4px !important;
+    transition: .2s;
+}
+.left-30{
+    left: 32px;
+    transition: .2s;
+}
+.left-20{
+    transition: .2s;
+    left: 23px;
+}
+.left-10{
+    transition: .2s;
+    left: 15px;
+}
+.left-5{
+left: 7px;  
+transition: .2s;
+}
+.text-color{
+    color: #59655f;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.border-primary{
+    border-radius: 10px;
+    border: solid 2px #0d6efd;
+    width: 80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0d6efd;
+}
+.hover-bg-primary:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+textarea::placeholder{
+    color:#b7b6b5 !important;
+}
+.btn-sumbit{
+    background-color: #b84297 !important;
+    color: white !important;
+}
+#yes:checked ~ label[for="yes"]{
+    color: white;
+    background-color: #0d6efd;
+}
+#no:checked ~  label[for="no"]{
+    color: white;
+    background-color: #0d6efd;
+}
+.position-sticky-top{
+    position: sticky ;
+    top: 20px ;
+}
+.position-sticky-top-2{
+    position: sticky ;
+    top: 20px ;
+}
+.z-index-3{
+    z-index: 3 !important;
+}
+.bg-gray{
+    background-color: #f4f4f4 !important;
+}
+.fs-13{
+    font-size: 13px;
+}
+.white-space-nowrap{
+    white-space: nowrap;
+}
