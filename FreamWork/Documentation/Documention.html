@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/cc00d27b50.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/Adb/Style.css">      
+<link rel="stylesheet" href="/Adb/FreamWork/More/RoadMap/Css/RoadMap.css"> 
+    <link rel="stylesheet" href="Css/Documention.css">
+    <title>Your Website Title</title>
+</head>
+<body>
+  <header class="border-bottom-1 ps-3 pe-1 px-lg-5  w-100 bg-white z-index-3">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+   <div class="d-flex align-items-center  ">
+    <a class="navbar-brand   text-decoration-none" href="#">
+        <img src="https://abp.io/assets/svg/abp-logo.svg" alt="Your Logo">
+      </a>
+      <a href="Index.html" class=" me-3 ms-3 border-radius-10  nav-link  d-none d-lg-flex" >FrameWork </a>
+      <a href="/Adb/Community/Community.html" class=" nav-link  w-h-80 d-none d-lg-flex">Community </a>
+      <a href="/Adb/Commercial/Commercial.html" class=" nav-link w-h-80 d-none d-lg-flex ">Commercial </a>
+      <div class="dropdown d-lg-none">
+        <a href="#"class=" nav-link  w-h-80  dropdown-toggle " id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">FrameWork</a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="nav-link text-blue w-h-80" href="#">Community</a></li>
+          <li><a class="nav-link text-blue w-h-80" href="#">Commercial</a></li>
+        </ul>
+      </div>
+   </div>
+      <button class="navbar-toggler  bg-transperent  " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars menu-icon-color fs-3 "></i>
+            </button>
+      <div class="collapse navbar-collapse w-sm-100 d-none pe-5 pe-lg-0 w-100 bg-light-gray z-index-3  position-md-fixed md-top-80" id="navbarNav">
+        <ul class="navbar-nav ml-auto  ">
+          <li class="nav-item me-3 border-md-bottom-1">
+            <a class="nav-link text-dark nav-content  " href=""> Blog</a>
+          </li>
+          <li class="nav-item me-3 border-md-bottom-1  mt-lg-0">
+            <a class="nav-link text-dark nav-content mt-3 mt-lg-0 " href="#"> <i class="fa-brands fa-github pe-lg-1 fs-5"></i> GitHub</a>
+          </li>
+        <li class="nav-item mt-3 mt-lg-0">
+            <a href="#" class="text-decoration-none " >
+                <button class=" btn-secondary w-sm-100 btn-seting border-0 d-flex align-items-center justify-content-center">Login</button>
+            </a>
+        </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="row mt-5">
+    <div class="col-lg-3 col-12 " style="min-height: calc(100%);" >
+        <div class="card bg-dark-light position-sticky-top"  style="height: 100vh !important;"  >
+          <div class=" border-radius-10 ">
+
+            <div class="image-card px-4  px-lg-4 py-5">
+                <img src="https://docs.abp.io/images/logo-abp-documents.svg" alt="" width="200px" >
+            </div>
+            <div class="drop-card row m-0  ">
+                <div class=" col-6" >
+                    <div class="bg-dark border-radius-10 d-flex justify-content-center  flex-column" style="height: 50px; overflow: hidden;">
+                        <p class="fs-13 m-0 text-white-dark ps-2">Version</p>
+                        <div class="d-flex">
+                    <i class="fa-solid fa-code-branch ps-2 pt-1 text-white-dark" ></i>
+                        <select class="form-select text-white-dark border-0 p-0  bg-dark ps-2 outline-none box-shadow" style="height: 23px; " aria-label="Default select example" id="numberSelect">
+                           <option selected>8.0 (latest)</option>
+                          </select>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-6" >
+                    <div class="bg-dark border-radius-10 d-flex justify-content-center  flex-column" style="height: 50px; overflow: hidden;">
+                        <p class="fs-13 m-0 text-white-dark ps-2">Language</p>
+                        <select class="form-select text-white-dark border-0 p-0  bg-dark ps-2 outline-none box-shadow" style="height: 23px; " aria-label="Default select example">
+                            <option selected>English</option>
+                            <option value="1">Português</option>
+                            <option value="2">简体中文</option>
+                          </select>
+                    </div>
+                </div>
+            </div>
+            <div class="  px-3 position-relative mt-3" >
+                <i class="fa-solid fa-magnifying-glass position-absolute d-inline-block text-white-dark"  style=" top: 11px; left: 24px;"></i>
+                <input type="search" class="form-control bg-dark border-0 box-shadow search-text" >
+                </div>
+          </div>
+        </div>
+    </div>
+    <div class="col-lg-6 p-color mt-3 mt-lg-0 col-12">
+        <div class="nav d-flex border-bottom-1 pb-4 align-items-center justify-content-between">
+            <div>
+             <a href="#" ><i class="fa-solid fa-house fs-13 text-light-dark"></i></a>
+             <a href="#"   class="px-1 text-light-dark ">></span>
+             <a href="#" class="fs-13  text-light-dark">Release Information</span>
+             <a href="#" class="px-1 text-light-dark">></span>
+             <a href="#" class=" fs-13 text-light-dark ">Road Map</a>
+            </div>
+            <div>
+                <a href="#" class="text-light-dark"><i class="fa-solid fa-thumbs-up"></i></a>
+                <a href="#" class="text-light-dark fs-15 px-2">FeedBack</a>
+                <a href="#" class="text-light-dark  px-2"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="text-light-dark  px-2"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="text-light-dark  px-2"><i class="fa-regular fa-envelope"></i></a>
+             </div>
+         </div>
+         <div class="row  align-items-center  ">
+            <div class="position-relative mt-3 col-12 col-md-6 p-lg-0 ps-0 col-lg-6" >
+                <i class="fa-solid fa-magnifying-glass  position-absolute d-inline-block text-white-dark"  style=" top: 15px; left: 8px;"></i>
+                <input type="search" placeholder="Search in documents" class="form-control w-100 bg-gray text-dark  border-0 box-shadow search-text" style="height: 45px;">
+                </div>
+                <div class="d-flex col-lg-6 col-md-6 co-12  mt-3 mt-lg-0 ps-0 ps-lg-4 mt-md-0">
+                    <div>
+                        <p class="m-0 p-0">Continbuter</p>
+                      <a href="#" >  <span class="fs-12  m-0"><i class="fa fa-edit"></i> Edit <span class="text-light-dark"> (11/27/2023)</span></span></a>
+                    </div>
+                    <a href="#" class="  d-block remove-position-hover position-relative">
+                        <img src="https://avatars.githubusercontent.com/u/1210527?v=4" alt="" class=" position-relative  rounded-circle left-30 white-border" width="30px" height="30px" > 
+                        <img src="https://avatars.githubusercontent.com/u/43685404?v=4" alt="" class=" position-relative rounded-circle left-20 white-border" width="30px" height="30px" > 
+                        <img src="https://avatars.githubusercontent.com/u/9526587?v=4" alt="" class=" position-relative left-10  rounded-circle lef-10 white-border" width="30px" height="30px" > 
+                        <img src="https://avatars.githubusercontent.com/u/6908465?v=4" alt="" class=" position-relative  left-5 rounded-circle white-border" width="30px" height="30px"> 
+                        <img src="https://avatars.githubusercontent.com/u/11170564?v=4" alt="" class=" position-relative  rounded-circle white-border" width="30px" height="30px"> 
+                    </a>
+                </div>
+         </div>
+     
+         <div class="py-5">
+            <h1 class="fw-bolder">ABP Documentation</h1>
+            <p class="text-color">ABP Framework offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET and the ASP.NET Core platforms. It provides the fundamental infrastructure, production-ready startup templates, modules, themes, tooling, guides and documentation to implement that architecture properly and automate the details and repetitive works as much as possible.</p>
+         </div>
+         <div class="pb-5">
+            <h1 class="fw-bolder">Getting Started</h1>
+         </div>
+         <div class="pb-3">
+    
+            <ul>
+                <li class="text-color"><a href="#">Quick Start</a> is a single-part, quick-start tutorial to build a simple application with the ABP Framework. Start with this tutorial if you want to quickly understand how ABP works.</li>
+                <li class="text-color"> <a href="#">Getting Started </a> guide can be used to create and run ABP based solutions with different options and details.</li>
+                <li class="text-color">Angular Universa <a href="#">(#15782)</a></li>
+                <li class="text-color"><a href="#">Web Application Development Tutorial</a> is a complete tutorial to develop a full stack web application with all aspects of a real-life solution.</li>
+            </ul>
+            <h3 class="fw-bolder">UI Framework Options</h3>
+            <p>ABP Framework can work with any UI framework, while the following frameworks are supported out of the box:</p>
+          <div class="card overflow-hidden my-5">
+            <div class="">
+              <img src="https://raw.githubusercontent.com/abpframework/abp/rel-8.0/docs/en/images/ui-options.png" alt="" width="450px" height="60px">
+            </div>
+          </div>
+
+            <h3 class="fw-bolder mt-5" >Database Provider Options</h3>
+            <p>ABP Framework can work with any database provider, while the following providers are supported out of the box:</p>
+            <div class="card overflow-hidden my-5">
+              <div class="">
+                <img src="https://raw.githubusercontent.com/abpframework/abp/rel-8.0/docs/en/images/db-options.png" alt="" width="450px" height="60px">
+              </div>
+            </div>
+            <h3 class="fw-bolder">Exploring the Documentation</h3>
+            <p>ABP has a comprehensive documentation that not only explains the ABP Framework, but also includes guides and samples to help you on creating a maintainable solution by introducing and discussing common software development principle and best practices.</p>
+            <h3 class="fw-bolder">Architecture</h3>
+            <p>ABP offers a complete, modular and layered software architecture based on <a href="#">Domain Driven Design</a> principles and patterns. It also provides the necessary infrastructure to implement this architecture.</p>
+            <ul>
+              <li class="text-color fs-15 ">See the <a href="#">Modularity</a> document to understand the module system.</li>
+              <li class="text-color fs-15 "><a href="#">Implementing Domain Driven Design book</a> is an ultimate guide for who want to understand and implement the DDD with the ABP Framework.</li>
+              <li class="text-color fs-15 "> <a href="#">Microservice Architecture </a> document explains how ABP helps to create a microservice solution.</li>
+              <li class="text-color fs-15 "><a href="#">Multi-Tenancy</a> document introduces multi-tenancy and explores the ABP multi-tenancy infrastructure.</li>
+            
+          </ul>
+          <h3 class="fw-bolder mt-5">Infrastructure</h3>
+          <p>There are a lot of features provided by the ABP Framework to achieve real world scenarios easier, like <a href="#">Event Bus, Background Job System, Audit Logging, BLOB Storing, Data Seeding, Data Filtering.</a></p>
+          <h3 class="mt-5 fw-bolder">Application Modules</h3>
+          <p>Application Modules provides pre-built application functionalities;</p>
+          <ul>
+            <li><a href="#">Account:</a> Provides UI for the account management and allows user to login/register to the application.</li>
+            <li><a href="#">Identity:</a> Manages organization units, roles, users and their permissions, based on the Microsoft Identity library.</li>
+            <li><a href="#">OpenIddict:</a> Integrates to OpenIddict.</li>
+            <li><a href="#">Tenant Management: </a>Manages tenants for a <a href="#">multi-tenant</a> (SaaS) application.</li>
+          </ul>
+          <p>See the <a href="#">Application Modules</a> document for all pre-built modules.</p>
+          <h3 class="fw-bolder mt-5">Startup Templates</h3>
+          <p>The <a href="#">Startup templates</a> are pre-built Visual Studio solution templates. You can create your own solution based on these templates to immediately start your development.</p>
+          <h3 class="my-5 fw-bolder">Books</h3>
+          <h3 class="fw-bolder">Mastering ABP Framework</h3>
+          <div class="mt-5 border-radius-10 overflow-hidden" style=" width: 300px;">
+            <img src="https://raw.githubusercontent.com/abpframework/abp/rel-8.0/docs/en/images/abp-book.png" alt="">
+          </div>
+          <p class="my-5">Mastering ABP Framework is an ultimate guide to get started and expertise with the ABP Framework. It is authored by Halil İbrahim Kalkan, the creator and the lead developer of the ABP Framework.</p>
+          <a href="#" class="">You can order it from Amazon now!          </a>
+          <h3 class="fw-bolder py-4">Free E-Book: Implementing Domain Driven Design</h3>
+          <div class="py-3">
+          <a href="#">  <img src="https://raw.githubusercontent.com/abpframework/abp/rel-8.0/docs/en/images/implementing-domain-driven-design-book.png" alt=""></a>
+          </div>
+          <p class="pt-2">A practical guide for implementing Domain Driven Design (DDD). While the implementation details are based on the ABP Framework infrastructure, the basic concepts, principles and models can be applied to any solution, even if it is not a .NET solution.</p>
+          <a href="#">Click here to get your free copy.</a>
+          <h3 class="py-5 fw-bolder">ABP Community</h3>
+          <h3 class="fw-bolder">The Source Code</h3>
+          <p>ABP is hosted on GitHub. See <a href="#">the source code.</a></p>
+          <h3 class="pt-5 fw-bolder">ABP Community Web Site</h3>
+          <p>The <a href="#">ABP Community</a> is a website to publish articles and share knowledge about the ABP Framework. You can also create content for the community!</p>
+          <h3 class="fw-bolder pt-5">Blog</h3>
+          <p>Follow the <a href="#">ABP Blog </a> to learn the latest happenings in the ABP Framework.</p>
+          <h3 class="fw-bolder mt-5">Samples</h3>
+          <p>See the <a href="#">sample projects</a> built with the ABP Framework.</p>
+          <h3 class="fw-bolder mt-5">Want to Contribute?</h3>
+          <p>ABP is a community-driven open source project. See <a href="#"> the contribution guide </a> if you want to be a part of this project.</p>
+         </div>
+         <div class="mt-5">
+            <div class="card p-3">
+                <h3 class="mb-3">Was this page helpful?</h3>
+                <div class="d-flex">
+                    <input type="radio" name="option" id="no" hidden>
+                    <label for="no" class="cursor-pointer border-primary hover-bg-primary "> <i class="fa-solid fa-thumbs-down pe-2 "></i> No </label>
+                    <input type="radio" id="yes" name="option" hidden>
+                    <label for="yes" class="cursor-pointer border-primary hover-bg-primary ms-3"> <i class="fa-solid fa-thumbs-up pe-2 "></i> Yes </label>
+                </div>
+                <div class="mt-3">
+                    <div class="form-floating">
+                        <textarea class="form-control bg-gray p-1 ps-2 pt-2 h-auto max-height-200" placeholder="Share your experience with us, but please don't include sensitive or personal information." id="floatingTextarea" rows="5"></textarea>
+                      </div>
+                      <button class="btn btn-sumbit mt-3" > <i class="fa fa-paper-plane pe-2"></i> Submit</button>
+                </div>
+            </div>      
+         </div>
+    </div>
+    <div class="col-lg-3  mt-lg-0 col-12" style="min-height: 100%;">
+      <div class="position-sticky-top-2 ">
+
+        <div class="card p-3 px-4">
+          <h5 class="fw-bolder">In this document</h5>
+          <a href="#" class="text-light-dark">Next version</a>
+          <a href="#" class="text-light-dark">v8.1</a>
+          <a href="#" class="text-light-dark">Backlog</a>
+          <a href="#" class="text-light-dark">Feature Requests</a>
+        </div>
+        <div class="card p-3 px-4 mt-3 py-4" style="background-color: #4e73be;">
+     <img src="https://docs.abp.io/images/icon-abp-community-talks.svg" alt="" width="200px">
+          <h4 class="text-bolder text-white mt-3">What's Coming with .NET8 & ABP 8.0</h4>
+          <div class="mt-2 " style="position: relative; right: 20px;">
+            <a href="#" class="  d-block remove-position-hover position-relative">
+              <img src="https://avatars.githubusercontent.com/u/1210527?v=4" alt="" class=" position-relative  rounded-circle left-30 white-border" width="30px" height="30px" > 
+              <img src="https://avatars.githubusercontent.com/u/43685404?v=4" alt="" class=" position-relative rounded-circle left-20 white-border" width="30px" height="30px" > 
+              <img src="https://avatars.githubusercontent.com/u/9526587?v=4" alt="" class=" position-relative left-10  rounded-circle lef-10 white-border" width="30px" height="30px" > 
+              <img src="https://avatars.githubusercontent.com/u/6908465?v=4" alt="" class=" position-relative  left-5 rounded-circle white-border" width="30px" height="30px"> 
+              <img src="https://avatars.githubusercontent.com/u/11170564?v=4" alt="" class=" position-relative  rounded-circle white-border" width="30px" height="30px"> 
+          </a>
+          <div class="row ">
+            <div class="col-6 ">
+              <img src="https://docs.abp.io/images/icon-youtube-live.svg" alt="" class="w-100 d-inline-block pt-4">
+            </div>
+            <div class="col-6">
+              <div class="community-date-and-time text-end ">
+                <span class="d-block text-white fs-13">November 23,</span> <span class="text-white fs-13"> 2023 17:00 (UTC)</span>
+            </div>
+            </div>
+          </div>
+          <div class="d-flex mt-3 px-3">
+            <button class="me-3 white-space-nowrap text-white py-2 border-radius-10 bg-transparent" style="background-color: transparent; border:solid white 1px"> Previous Events</button>
+            <button class="white-space-nowrap py-2 border-0 border-radius-10 text-white" style="background-color: #b84297;">Watch the Event</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+     var select = document.getElementById("numberSelect");
+     for (var i = 1; i <= 20; i++) {
+    var option = document.createElement("option");
+    option.value = i;
+    option.text = i;
+    select.appendChild(option);
+  }
+  </script>
+</body>
+</html>
