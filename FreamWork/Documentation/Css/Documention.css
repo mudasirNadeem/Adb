@@ -2,3 +2,10 @@
     color: #59655f !important;
     font-size: 15px;
 }
+.bg-transperent{
+    background-color: transparent;
+}
+.border-white{
+    border:white solid 2px ;
+    
+}
