@@ -1,6 +1,6 @@
 .sticky-Element{
     position: sticky;
-    top: 0;
+    top: 150px;
 }
 /* For WebKit browsers (Chrome, Safari) */
 .sticky-Element::-webkit-scrollbar{
