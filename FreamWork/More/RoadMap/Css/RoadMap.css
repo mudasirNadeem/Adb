@@ -122,3 +122,18 @@ textarea::placeholder{
 .white-space-nowrap{
     white-space: nowrap;
 }
+.p-color p{
+    color: #59655f !important;
+    font-size: 15px;
+}
+.bg-transperent{
+    background-color: transparent;
+}
+.border-white{
+    border:white solid 2px ;
+
+}
+.hover-bg-white:hover{
+    background-color: white;
+    color: black !important;
+}

@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="Css/Books.css">
     <title>Your Website Title</title>
 </head>
-<body>
+
+<body id="toggleButton">
   <header class="border-bottom-1 ps-3 pe-1 px-lg-5  w-100 bg-white ">
     <nav class="navbar navbar-expand-lg navbar-dark ">
    <div class="d-flex align-items-center  ">
@@ -32,10 +33,10 @@
         </ul>
       </div>
    </div>
-      <button class="navbar-toggler  bg-transperent  " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa-solid fa-bars menu-icon-color fs-3 "></i>
-            </button>
-      <div class="collapse navbar-collapse w-sm-100 pe-5 pe-lg-0 w-100 bg-light-gray z-index-3  position-md-fixed md-top-80" id="navbarNav">
+   <button class="navbar-toggler bg-transparent toggle-nav-btn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa-solid fa-bars menu-icon-color fs-3"></i>
+  </button>
+      <div class="collapse navbar-collapse w-sm-100 pe-5 pe-lg-0 w-100 bg-white z-index-3  position-md-fixed md-top-80" id="navbarNav">
         <div class="d-lg-none">
           <div>
             <ul class=" p-0">
@@ -63,7 +64,7 @@
                 <ul class="dropdown-menu position-absolute top-10" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Packages <i class="fa fa-external-link ms-1"></i></a></li>
                   <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Road Map <i class="fa fa-external-link ms-1"></i></a></li>
-                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Samples <i class="fa fa-external-link ms-1"></i></a></li>
+                  <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="/Adb/FreamWork/More/Samples/Simple.html">Samples <i class="fa fa-external-link ms-1"></i></a></li>
                 </ul>
               </li>
               <li class="nav-item border-md-bottom-1 py-3">
@@ -115,7 +116,7 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="/Adb/FreamWork/More/Packages/Packages.html">Packages<i class="fa fa-external-link ms-1"></i></a></li>
             <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="/Adb/FreamWork/More/RoadMap/RoadMap.html">Road Map <i class="fa fa-external-link ms-1"></i></a></li>
-            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="#">Samples <i class="fa fa-external-link ms-1"></i></a></li>
+            <li><a class="dropdown-item nav-link d-block w-100 p-2 text-dark" href="/Adb/FreamWork/More/Samples/Simple.html">Samples <i class="fa fa-external-link ms-1"></i></a></li>
           </ul>
         </li>
       </ul>
@@ -349,5 +350,10 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    document.getElementById('toggleButton').addEventListener('click', function() {
+    document.body.classList.toggle('white-bg');
+  });
+  </script>
 </body>
 </html>

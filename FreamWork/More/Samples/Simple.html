@@ -11,8 +11,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/cc00d27b50.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="/Adb/Style.css">      
-<link rel="stylesheet" href="/Adb/FreamWork/More/RoadMap/Css/RoadMap.css"> 
-    <link rel="stylesheet" href="Css/Documention.css">
+    <link rel="stylesheet" href="/Adb/FreamWork/More/RoadMap/Css/RoadMap.css">
+    <link rel="stylesheet" href="Css/Simple.css">
     <title>Your Website Title</title>
 </head>
 <body>
@@ -22,7 +22,7 @@
     <a class="navbar-brand   text-decoration-none" href="#">
         <img src="https://abp.io/assets/svg/abp-logo.svg" alt="Your Logo">
       </a>
-      <a href="/Adb/FreamWork/Index.html" class=" me-3 ms-3 border-radius-10  nav-link  d-none d-lg-flex" >FrameWork </a>
+      <a href="\Adb\FreamWork\Resources\Books.html" class=" me-3 ms-3 border-radius-10  nav-link  d-none d-lg-flex" >FrameWork </a>
       <a href="/Adb/Community/Community.html" class=" nav-link  w-h-80 d-none d-lg-flex">Community </a>
       <a href="/Adb/Commercial/Commercial.html" class=" nav-link w-h-80 d-none d-lg-flex ">Commercial </a>
       <div class="dropdown d-lg-none">
@@ -89,13 +89,17 @@
                 <input type="search" class="form-control bg-dark border-0 box-shadow search-text" >
                 </div>
           </div>
+          
         </div>
     </div>
-    <div class="col-lg-6 p-color mt-3 mt-lg-0 col-12">
+    <div class="col-lg-6 mt-3 mt-lg-0 col-12">
         <div class="nav d-flex border-bottom-1 pb-4 align-items-center justify-content-between">
             <div>
              <a href="#" ><i class="fa-solid fa-house fs-13 text-light-dark"></i></a>
-            
+             <a href="#"   class="px-1 text-light-dark ">></span>
+             <a href="#" class="fs-13  text-light-dark">Simple</span>
+             <a href="#" class="px-1 text-light-dark">></span>
+             <a href="#" class=" fs-13 text-light-dark ">All Samples</a>
             </div>
             <div>
                 <a href="#" class="text-light-dark"><i class="fa-solid fa-thumbs-up"></i></a>
@@ -126,85 +130,94 @@
          </div>
      
          <div class="py-5">
-            <h1 class="fw-bolder">ABP Documentation</h1>
-            <p class="text-color">ABP Framework offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET and the ASP.NET Core platforms. It provides the fundamental infrastructure, production-ready startup templates, modules, themes, tooling, guides and documentation to implement that architecture properly and automate the details and repetitive works as much as possible.</p>
+            <h1 class="fw-bolder">Sample Applications</h1>
+            <p class="text-color">Here, a list of official samples built with the ABP Framework. Most of these samples are located under the <a href="#">abpframework/abp-samples </a> GitHub repository.</p>
          </div>
-         <div class="pb-3">
-            <h1 class="fw-bolder">Getting Started</h1>
-         </div>
-         <div class="pb-3">
-    
+         <div class="pb-5">
+            <h1 class="fw-bolder">eShopOnAbp</h1>
+            <p class="text-color">Reference microservice solution built with the ABP Framework and .NET.</p>
             <ul>
-                <li class="text-color"><a href="#">Quick Start</a> is a single-part, quick-start tutorial to build a simple application with the ABP Framework. Start with this tutorial if you want to quickly understand how ABP works.</li>
-                <li class="text-color"> <a href="#">Getting Started </a> guide can be used to create and run ABP based solutions with different options and details.</li>
-                <li class="text-color">Angular Universa <a href="#">(#15782)</a></li>
-                <li class="text-color"><a href="#">Web Application Development Tutorial</a> is a complete tutorial to develop a full stack web application with all aspects of a real-life solution.</li>
+                <li><a href="#">Source code</a></li>
             </ul>
-            <h3 class="fw-bolder">UI Framework Options</h3>
-            <p>ABP Framework can work with any UI framework, while the following frameworks are supported out of the box:</p>
-          <div class="card overflow-hidden my-5">
-            <div class="">
-              <img src="https://raw.githubusercontent.com/abpframework/abp/rel-8.0/docs/en/images/ui-options.png" alt="" width="450px" height="60px">
-            </div>
-          </div>
-
-            <h3 class="fw-bolder mt-5" >Database Provider Options</h3>
-            <p>ABP Framework can work with any database provider, while the following providers are supported out of the box:</p>
-            <div class="card overflow-hidden my-5">
-              <div class="">
-                <img src="https://raw.githubusercontent.com/abpframework/abp/rel-8.0/docs/en/images/db-options.png" alt="" width="450px" height="60px">
-              </div>
-            </div>
-            <h3 class="fw-bolder">Exploring the Documentation</h3>
-            <p>ABP has a comprehensive documentation that not only explains the ABP Framework, but also includes guides and samples to help you on creating a maintainable solution by introducing and discussing common software development principle and best practices.</p>
-            <h3 class="fw-bolder">Architecture</h3>
-            <p>ABP offers a complete, modular and layered software architecture based on <a href="#">Domain Driven Design</a> principles and patterns. It also provides the necessary infrastructure to implement this architecture.</p>
+         </div>
+         <div class="pb-3">
+            <h1 class="text-dark fw-bolder" >Book Store</h1>
+            <p class="text-color fs-15">A simple CRUD application to show basic principles of developing an application with the ABP Framework. The same sample was implemented with different technologies:</p>
             <ul>
-              <li class="text-color fs-15 ">See the <a href="#">Modularity</a> document to understand the module system.</li>
-              <li class="text-color fs-15 "><a href="#">Implementing Domain Driven Design book</a> is an ultimate guide for who want to understand and implement the DDD with the ABP Framework.</li>
-              <li class="text-color fs-15 "> <a href="#">Microservice Architecture </a> document explains how ABP helps to create a microservice solution.</li>
-              <li class="text-color fs-15 "><a href="#">Multi-Tenancy</a> document introduces multi-tenancy and explores the ABP multi-tenancy infrastructure.</li>
-            
-          </ul>
-          <h3 class="fw-bolder mt-5">Infrastructure</h3>
-          <p>There are a lot of features provided by the ABP Framework to achieve real world scenarios easier, like <a href="#">Event Bus, Background Job System, Audit Logging, BLOB Storing, Data Seeding, Data Filtering.</a></p>
-          <h3 class="mt-5 fw-bolder">Application Modules</h3>
-          <p>Application Modules provides pre-built application functionalities;</p>
-          <ul>
-            <li><a href="#">Account:</a> Provides UI for the account management and allows user to login/register to the application.</li>
-            <li><a href="#">Identity:</a> Manages organization units, roles, users and their permissions, based on the Microsoft Identity library.</li>
-            <li><a href="#">OpenIddict:</a> Integrates to OpenIddict.</li>
-            <li><a href="#">Tenant Management: </a>Manages tenants for a <a href="#">multi-tenant</a> (SaaS) application.</li>
-          </ul>
-          <p>See the <a href="#">Application Modules</a> document for all pre-built modules.</p>
-          <h3 class="fw-bolder mt-5">Startup Templates</h3>
-          <p>The <a href="#">Startup templates</a> are pre-built Visual Studio solution templates. You can create your own solution based on these templates to immediately start your development.</p>
-          <h3 class="my-5 fw-bolder">Books</h3>
-          <h3 class="fw-bolder">Mastering ABP Framework</h3>
-          <div class="mt-5 border-radius-10 overflow-hidden" style=" width: 300px;">
-            <img src="https://raw.githubusercontent.com/abpframework/abp/rel-8.0/docs/en/images/abp-book.png" alt="">
-          </div>
-          <p class="my-5">Mastering ABP Framework is an ultimate guide to get started and expertise with the ABP Framework. It is authored by Halil İbrahim Kalkan, the creator and the lead developer of the ABP Framework.</p>
-          <a href="#" class="">You can order it from Amazon now!          </a>
-          <h3 class="fw-bolder py-4">Free E-Book: Implementing Domain Driven Design</h3>
-          <div class="py-3">
-          <a href="#">  <img src="https://raw.githubusercontent.com/abpframework/abp/rel-8.0/docs/en/images/implementing-domain-driven-design-book.png" alt=""></a>
-          </div>
-          <p class="pt-2">A practical guide for implementing Domain Driven Design (DDD). While the implementation details are based on the ABP Framework infrastructure, the basic concepts, principles and models can be applied to any solution, even if it is not a .NET solution.</p>
-          <a href="#">Click here to get your free copy.</a>
-          <h3 class="py-5 fw-bolder">ABP Community</h3>
-          <h3 class="fw-bolder">The Source Code</h3>
-          <p>ABP is hosted on GitHub. See <a href="#">the source code.</a></p>
-          <h3 class="pt-5 fw-bolder">ABP Community Web Site</h3>
-          <p>The <a href="#">ABP Community</a> is a website to publish articles and share knowledge about the ABP Framework. You can also create content for the community!</p>
-          <h3 class="fw-bolder pt-5">Blog</h3>
-          <p>Follow the <a href="#">ABP Blog </a> to learn the latest happenings in the ABP Framework.</p>
-          <h3 class="fw-bolder mt-5">Samples</h3>
-          <p>See the <a href="#">sample projects</a> built with the ABP Framework.</p>
-          <h3 class="fw-bolder mt-5">Want to Contribute?</h3>
-          <p>ABP is a community-driven open source project. See <a href="#"> the contribution guide </a> if you want to be a part of this project.</p>
+                <li class="text-color">
+                    Book Store: Razor Pages UI & Entity Framework Core
+                    <ul>
+                        <li>
+                           <a href="#">Tutorial</a>
+                        </li>
+                        <li>
+                            <a href="#">Source code</a>
+                        </li>
+                    </ul>
+
+                </li>
+
+                <li class="text-color">
+                    Book Store: Blazor UI & Entity Framework Core
+                    <ul>
+                        <li>
+                           <a href="#">Tutorial</a>
+                        </li>
+                        <li>
+                            <a href="#">Source code</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="text-color">
+                    Book Store: Angular UI & MongoDB
+                    <ul>
+                        <li>
+                           <a href="#">Tutorial</a>
+                        </li>
+                        <li>
+                            <a href="#">Source code</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="text-color">
+                    Book Store: Modular application (Razor Pages UI & EF Core)
+                    <ul>
+                   
+                        <li>
+                            <a href="#">Source code</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="text-color fs-15"> While there is no Razor Pages & MongoDB combination, you can check both documents to understand it since DB & UI selection don't effect each other.</p>
+
          </div>
          <div class="mt-5">
+            <h1 class="fw-bolder">Backlog Items</h1>
+            <p class="text-color fs-15 mt-3">The Next Versions section above shows the main focus of the planned versions. However, in each release we add new features to the core framework and the <a href="#">application modules.</a></p>
+            <p class="text-color mt-2 ">Here is a list of major items in the backlog we are considering working on in the next versions.</p>
+            <ul>
+                <li class="text-color fs-15 "><a href="#">#6655</a> / Use Typescript for the MVC UI</li>
+                <li class="text-color fs-15 "><a href="#">#236 </a>/ Resource based authorization system</li>
+                <li class="text-color fs-15 "><a href="#">#2882 </a>/ Providing a gRPC integration infrastructure (while it is <a href="#">already possible</a> to create or consume gRPC endpoints for your application, we plan to create endpoints for the <a href="#">standard application modules</a> )</li>
+                <li class="text-color fs-15 "><a href="#">#57  </a>/ Built-in CQRS infrastructure</li>
+                <li class="text-color fs-15 "><a href="#">#2532   </a>/ CosmosDB integration with EF Core and MongoDB API</li>
+                <li class="text-color fs-15 "><a href="#">#4223 </a> / WebHook system</li>
+                <li class="text-color fs-15 "><a href="#">#162 </a>  / Azure ElasticDB Integration for multitenancy</li>
+                <li class="text-color fs-15 "><a href="#">#2296 </a>   / Feature toggling infrastructure</li>
+                <li class="text-color fs-15 "><a href="#">#16342  </a>   / CmsKit: Meta information for SEO</li>
+                <li class="text-color fs-15 "><a href="#">  #16260  </a>  / GCP Blob Storage Provider</li>
+                <li class="text-color fs-15 "><a href="#">  #15932 </a> / Introduce ABP Diagnostics Module</li>
+                <li class="text-color fs-15 "><a href="#">#16756 </a>  / Blob Storing - Provider configuration UI</li>
+                <li class="text-color fs-15 "><a href="#"> #16744 </a>  / State Management API</li>
+            </ul>
+            <p class="text-color fs-15">
+                You can always check the milestone planning and the prioritized backlog issues on <a href="#">the GitHub repository</a> for a detailed road map. The backlog items are subject to change. We are adding new items and changing priorities based on the community feedbacks and goals of the project.
+            </p>
+            <div class="my-5">
+                <h1 class="fw-bolder">Feature Requests</h1>
+                <p class="text-color fs-15">Vote for your favorite feature on the related GitHub issues (and write your thoughts). You can create an issue on <a href="#">the GitHub repository</a> for your feature requests, but first search in the existing issues.</p>
+            </div>      
             <div class="card p-3">
                 <h3 class="mb-3">Was this page helpful?</h3>
                 <div class="d-flex">
@@ -223,51 +236,50 @@
          </div>
     </div>
     <div class="col-lg-3  mt-lg-0 col-12" style="min-height: 100%;">
-      <div class="position-sticky-top-2 overflow-hidden ">
-
-        <div class="card p-3 px-4">
-          <h5 class="fw-bolder">In this document</h5>
-          <a href="#" class="text-light-dark">Next version</a>
-          <a href="#" class="text-light-dark">v8.1</a>
-          <a href="#" class="text-light-dark">Backlog</a>
-          <a href="#" class="text-light-dark">Feature Requests</a>
+        <div class="position-sticky-top-2 overflow-hidden ">
+  
+          <div class="card p-3 px-4">
+            <h5 class="fw-bolder">In this document</h5>
+            <a href="#" class="text-light-dark">Next version</a>
+            <a href="#" class="text-light-dark">v8.1</a>
+            <a href="#" class="text-light-dark">Backlog</a>
+            <a href="#" class="text-light-dark">Feature Requests</a>
+          </div>
+          <div class="card mt-3 px-3 pt-5 pb-4 mb-4"  style="background-color: #4e73be;">
+            <div class="image-card">
+              <img src="https://docs.abp.io/images/icon-abp-community-talks.svg" alt="" width="200px">
+            </div>
+            <div class="card-content">
+              <h4 class="bw-bolder py-3 text-white">Explore the potential of code generation: ABP Suite</h4>
+              <a href="#" class="  d-block remove-position-hover position-relative" style="right: 30px;">
+                <img src="https://avatars.githubusercontent.com/u/1210527?v=4" alt="" class=" position-relative  rounded-circle left-30 white-border" width="30px" height="30px" > 
+                <img src="https://avatars.githubusercontent.com/u/43685404?v=4" alt="" class=" position-relative rounded-circle left-20 white-border" width="30px" height="30px" > 
+                <img src="https://avatars.githubusercontent.com/u/9526587?v=4" alt="" class=" position-relative left-10  rounded-circle lef-10 white-border" width="30px" height="30px" > 
+                <img src="https://avatars.githubusercontent.com/u/6908465?v=4" alt="" class=" position-relative  left-5 rounded-circle white-border" width="30px" height="30px"> 
+                <img src="https://avatars.githubusercontent.com/u/11170564?v=4" alt="" class=" position-relative  rounded-circle white-border" width="30px" height="30px"> 
+            </a>
+            <div class="row p-0 ">
+              <div class="col-6 p-0">
+                <img src="https://docs.abp.io/images/icon-youtube-live.svg" alt="" class="d-inline-block pt-4" style="width: 100px;">
+              </div>
+              <div class="col-6">
+                <div class="community-date-and-time text-end text-white fs-13">
+                  <span class="d-block">January 18,</span> 2024 17:00 (UTC)
+              </div>
+              </div>
+            </div>
+            <div class="row p-0 mt-4">
+              <div class="col-6">
+               <button class="border-radius-10 w-100 fs-13 bg-transperent text-white border-white hover-bg-white" style="height: 30px;">Previous Events</button>
+              </div>
+              <div class="col-6">
+                <button class="border-radius-10 w-100 fs-13 border-0 w-100 text-white" style="height: 30px; background-color: #b84297;">Register Now</button>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
         </div>
-        <div class="card mt-3 px-3 pt-5 pb-4 mb-4"  style="background-color: #4e73be;">
-          <div class="image-card">
-            <img src="https://docs.abp.io/images/icon-abp-community-talks.svg" alt="" width="200px">
-          </div>
-          <div class="card-content">
-            <h4 class="bw-bolder py-3 text-white">Explore the potential of code generation: ABP Suite</h4>
-            <a href="#" class="  d-block remove-position-hover position-relative" style="right: 30px;">
-              <img src="https://avatars.githubusercontent.com/u/1210527?v=4" alt="" class=" position-relative  rounded-circle left-30 white-border" width="30px" height="30px" > 
-              <img src="https://avatars.githubusercontent.com/u/43685404?v=4" alt="" class=" position-relative rounded-circle left-20 white-border" width="30px" height="30px" > 
-              <img src="https://avatars.githubusercontent.com/u/9526587?v=4" alt="" class=" position-relative left-10  rounded-circle lef-10 white-border" width="30px" height="30px" > 
-              <img src="https://avatars.githubusercontent.com/u/6908465?v=4" alt="" class=" position-relative  left-5 rounded-circle white-border" width="30px" height="30px"> 
-              <img src="https://avatars.githubusercontent.com/u/11170564?v=4" alt="" class=" position-relative  rounded-circle white-border" width="30px" height="30px"> 
-          </a>
-          <div class="row p-0 ">
-            <div class="col-6 p-0">
-              <img src="https://docs.abp.io/images/icon-youtube-live.svg" alt="" class="d-inline-block pt-4" style="width: 100px;">
-            </div>
-            <div class="col-6">
-              <div class="community-date-and-time text-end text-white fs-13">
-                <span class="d-block">January 18,</span> 2024 17:00 (UTC)
-            </div>
-            </div>
-          </div>
-          <div class="row p-0 mt-4">
-            <div class="col-6">
-             <button class="border-radius-10 w-100 fs-13 bg-transperent text-white border-white hover-bg-white" style="height: 30px;">Previous Events</button>
-            </div>
-            <div class="col-6">
-              <button class="border-radius-10 w-100 fs-13 border-0 w-100 text-white" style="height: 30px; background-color: #b84297;">Register Now</button>
-            </div>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
